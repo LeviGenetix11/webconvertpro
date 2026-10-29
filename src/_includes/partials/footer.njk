@@ -1,0 +1,42 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <a class="logo" href="/"><img src="/assets/img/logo-light.png" alt="{{ site.name }}" width="475" height="146"></a>
+        <p>Websites that work as hard as you do. Built in {{ site.city }}, Ontario for service businesses across the GTA.</p>
+      </div>
+      <div>
+        <h2>Services</h2>
+        <ul>
+          <li><a href="/services/">All services</a></li>
+          <li><a href="/starter/">Starter</a></li>
+          <li><a href="/web-design/">Custom website design</a></li>
+          <li><a href="/web-design/#redesign">Website redesign</a></li>
+          <li><a href="/google-business-profile/">Local SEO and Google Business Profile</a></li>
+          <li><a href="/social-media/">Organic content creation</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Service area</h2>
+        <ul><li><a href="/locations/">All service areas</a></li>{% for a in site.areas %}<li>{{ a }}</li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- if site.phone %}
+          <li><a href="tel:{{ site.phone }}">{{ site.phoneDisplay }}</a></li>
+          {%- endif %}
+          <li><a href="/contact/">Get my free preview</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="base">
+      <span>&copy; <span id="year">2026</span> {{ site.name }}. All rights reserved.</span>
+      <a href="/privacy/">Privacy policy</a>
+    </div>
+  </div>
+</footer>
+{% if site.calendarUrl %}<a class="btn btn--primary mobile-cta" href="{{ site.calendarUrl }}">Book a free audit</a>{% else %}<a class="btn btn--primary mobile-cta" href="/contact/">Get my free preview</a>{% endif %}

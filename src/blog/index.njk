@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+title: "Website and Local SEO Blog | WebConvertPro"
+description: "Plain-English guides on website costs, local SEO and getting more calls for GTA service businesses."
+permalink: /blog/
+nav: /blog/
+---
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Blog</nav>
+    <h1>Websites and local marketing, explained for business owners</h1>
+    <p class="lede">What a website should cost, how to show up on Google Maps, and how to turn local searches into booked jobs.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    {%- if collections.posts.length %}
+    <div class="blog-grid">
+      {%- for p in collections.posts %}
+      <a class="post-card" href="{{ p.url }}">
+        {%- if p.data.image %}<img class="post-card-img" src="{{ p.data.image }}" alt="" width="320" height="180" loading="lazy">{% endif %}
+        {%- if p.data.category %}<span class="post-category">{{ p.data.category }}</span>{% endif %}
+        <h2>{{ p.data.title }}</h2>
+        <p>{{ p.data.description }}</p>
+        <span class="post-date">{{ p.date | dateLong }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+    {%- else %}
+    <p class="lede">The first posts are on the way.</p>
+    {%- endif %}
+  </div>
+</section>

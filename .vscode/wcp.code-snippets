@@ -1,0 +1,27 @@
+{
+  "Blog post front matter": {
+    "prefix": "wcppost",
+    "scope": "markdown",
+    "body": [
+      "---",
+      "title: \"${1:Post title with the main keyword}\"",
+      "seoTitle: \"${2:Keyword-first title under 60 chars}\"",
+      "description: \"${3:130 to 155 characters}\"",
+      "date: ${4:2026-01-01}",
+      "category: ${5:Web design}",
+      "targetKeyword: ${6:main keyword}",
+      "---",
+      "",
+      "$0"
+    ]
+  },
+  "FAQ item": {
+    "prefix": "wcpfaq",
+    "scope": "html",
+    "body": ["<details><summary>${1:Question}</summary><div><p>${2:Answer}</p></div></details>"]
+  },
+  "Free preview call to action": {
+    "prefix": "wcpcta",
+    "body": ["[Send us your business name and trade](/contact/) and we'll build a free draft of your homepage within one business day."]
+  }
+}

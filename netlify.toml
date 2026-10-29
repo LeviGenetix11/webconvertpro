@@ -1,0 +1,34 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Old URLs -> new pages. Add a line here whenever you rename or delete a page.
+[[redirects]]
+  from = "/website-design"
+  to = "/web-design/"
+  status = 301
+[[redirects]]
+  from = "/website-in-a-day/"
+  to = "/starter/"
+  status = 301
+[[redirects]]
+  from = "/website-in-a-day"
+  to = "/starter/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

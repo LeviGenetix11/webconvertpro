@@ -1,0 +1,7 @@
+{
+  "layout": "layouts/post.njk",
+  "tags": "post",
+  "nav": "/blog/",
+  "permalink": "/blog/{{ page.fileSlug }}/",
+  "author": "WebConvertPro"
+}

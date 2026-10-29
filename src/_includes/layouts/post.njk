@@ -1,0 +1,98 @@
+---
+layout: layouts/base.njk
+ogType: article
+---
+{%- set articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "datePublished": page.date | dateISO,
+  "dateModified": (updated or page.date) | dateISO,
+  "author": { "@type": "Organization", "name": site.name, "url": site.url },
+  "publisher": { "@type": "Organization", "name": site.name, "logo": { "@type": "ImageObject", "url": site.url + "/assets/img/logo.png" } },
+  "mainEntityOfPage": site.url + page.url,
+  "image": site.url + (ogImage or "/assets/img/og.png")
+} -%}
+{%- set crumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": site.url + "/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": site.url + "/blog/" },
+    { "@type": "ListItem", "position": 3, "name": title, "item": site.url + page.url }
+  ]
+} -%}
+<script type="application/ld+json">{{ articleSchema | dump | safe }}</script>
+<script type="application/ld+json">{{ crumbSchema | dump | safe }}</script>
+{%- if faqs and faqs.length %}
+<script type="application/ld+json">{{ faqs | faqPageSchema | dump | safe }}</script>
+{%- endif %}
+
+<article>
+  <header class="page-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blog/">Blog</a></nav>
+      {%- if category %}<p class="post-category">{{ category }}</p>{% endif %}
+      <h1>{{ title }}</h1>
+      <p class="lede">{{ description }}</p>
+      <p class="post-meta">By {{ author }}. Published <time datetime="{{ page.date | dateISO }}">{{ page.date | dateLong }}</time>{% if updated %}. Updated <time datetime="{{ updated | dateISO }}">{{ updated | dateLong }}</time>{% endif %}</p>
+    </div>
+  </header>
+
+  {%- if image %}
+  <div class="wrap">
+    <img class="post-hero-img" src="{{ image }}" alt="{{ imageAlt or '' }}" width="1200" height="675" loading="eager">
+  </div>
+  {%- endif %}
+
+  <section class="section">
+    <div class="wrap">
+      <div class="post-body prose">
+        {{ content | safe }}
+      </div>
+    </div>
+  </section>
+
+  {%- if faqs and faqs.length %}
+  <section class="section section--mist">
+    <div class="wrap">
+      <div class="section-head"><h2>Questions people ask</h2></div>
+      <div class="faq">
+        {%- for f in faqs %}
+        <details><summary>{{ f.q }}</summary><div><p>{{ f.a }}</p></div></details>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+  {%- endif %}
+
+  <section class="section section--mist">
+    <div class="wrap">
+      <div class="post-cta">
+        <h2>See your new website before you pay</h2>
+        <p class="lede">Send us your business name and trade. We build a free draft of your homepage within one business day.</p>
+        <div class="btn-row"><a class="btn btn--primary" href="/contact/">Get my free preview</a><a class="btn btn--ghost" href="/#pricing">See pricing</a></div>
+      </div>
+    </div>
+  </section>
+</article>
+
+{%- set related = collections.posts | relatedPosts(page.url) %}
+{%- if related.length %}
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>More from the blog</h2></div>
+    <div class="blog-grid">
+      {%- for p in related %}
+      <a class="post-card" href="{{ p.url }}">
+        {%- if p.data.category %}<span class="post-category">{{ p.data.category }}</span>{% endif %}
+        <h3>{{ p.data.title }}</h3>
+        <p>{{ p.data.description }}</p>
+        <span class="post-date">{{ p.date | dateLong }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

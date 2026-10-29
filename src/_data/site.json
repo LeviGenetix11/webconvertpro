@@ -1,0 +1,20 @@
+{
+  "name": "WebConvertPro",
+  "url": "https://webconvertpro.com",
+  "tagline": "Websites That Work As Hard As You Do",
+  "email": "hello@webconvertpro.com",
+  "phone": "",
+  "phoneDisplay": "",
+  "calendarUrl": "",
+  "city": "Ajax",
+  "region": "ON",
+  "areas": ["Durham Region", "Toronto", "York Region", "Peel Region", "Halton Region"],
+  "cities": ["Ajax", "Pickering", "Whitby", "Oshawa", "Scarborough", "Markham", "Richmond Hill", "Mississauga", "Oakville"],
+  "analyticsId": "",
+  "nav": [
+    { "href": "/services/", "label": "Services" },
+    { "href": "/locations/", "label": "Service Areas" },
+    { "href": "/blog/", "label": "Blog" },
+    { "href": "/#pricing", "label": "Pricing" }
+  ]
+}

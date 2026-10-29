@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: "Get a Free Website Preview | WebConvertPro, Ajax ON"
+description: "See your new website before you pay. We build a free preview for GTA service businesses within one business day. Ajax, Durham Region and the GTA."
+permalink: "/contact/"
+---
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "@id": "{{ site.url }}/#business", "name": "WebConvertPro", "url": "{{ site.url }}/", "logo": "{{ site.url }}/assets/img/logo.png", "image": "{{ site.url }}/assets/img/og.png", "email": "{{ site.email }}", "slogan": "Websites That Work As Hard As You Do", "description": "Conversion-focused website design for local service businesses across the GTA, plus Google Business Profile management and social media content.", "address": {"@type": "PostalAddress", "addressLocality": "Ajax", "addressRegion": "ON", "addressCountry": "CA"}, "areaServed": [{"@type": "AdministrativeArea", "name": "Durham Region"}, {"@type": "AdministrativeArea", "name": "Toronto"}, {"@type": "AdministrativeArea", "name": "York Region"}, {"@type": "AdministrativeArea", "name": "Peel Region"}, {"@type": "AdministrativeArea", "name": "Halton Region"}], "priceRange": "$$", "knowsAbout": ["Web design", "Conversion rate optimization", "Local SEO", "Google Business Profile", "Social media management"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"}, {"@type": "ListItem", "position": 2, "name": "Contact", "item": "{{ site.url }}/contact/"}]}</script>
+
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Contact</nav>
+    <h1>Get a free preview of your new website</h1>
+    <p class="lede">Tell us about your business and we'll build a working draft of your new homepage within one business day, free. Prefer email? Write to <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+    {% if site.phone %}<p>Phone: <a href="tel:{{ site.phone }}">{{ site.phoneDisplay }}</a></p>{% endif %}
+  </div>
+</section>
+{% set formHeading = "See your new website before you pay" %}{% set formSub = "Send us your business name and what you do. We build a working first draft of your new homepage with your logo, services and service area, then walk you through it on a 15-minute call. If you don't like it, you don't pay anything." %}{% set formSource = "contact" %}{% set formDefault = "" %}{% set formBullets = ["Your draft is ready within one business day", "Built for your trade and your city, not a stock demo", "No payment details needed to see it", "One business per trade per city, so your competitor can't get the same site"] %}{% include "partials/lead-form.njk" %}
+<section class="section">
+  <div class="wrap split">
+    <div><h2>What happens next</h2></div>
+    <div>
+      <p><strong>Within one business day:</strong> we text or email you a link to your preview, built with your business name, services and city.</p>
+      <p><strong>On a 15-minute call:</strong> we walk through it, compare it to your top local competitors, and make changes live. You get a fixed price for Starter or a custom build.</p>
+      <p><strong>If you love it:</strong> Starter goes live within 24 hours. <strong>If you don't:</strong> you owe nothing, and we won't chase you.</p>
+    </div>
+  </div>
+</section>

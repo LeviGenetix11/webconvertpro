@@ -1,0 +1,14 @@
+node_modules/
+_site/
+.DS_Store
+.env
+# Lead lists contain personal data. Keep them out of Git.
+content/outreach/lead-lists/*
+!content/outreach/lead-lists/.gitkeep
+
+# Unrelated side projects that happen to live in this same folder — not part of
+# the WebConvertPro site, not built by Eleventy, and SEO_brief/SEO-local are
+# already their own separate git repos. Don't pull them into this one.
+SEO_brief/
+SEO-local/
+locations/

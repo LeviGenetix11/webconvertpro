@@ -1,0 +1,34 @@
+{#- Set these before including: formHeading, formSub, formSource, formDefault, formBullets -#}
+<section class="section section--ink" id="plan">
+  <div class="wrap lead">
+    <div class="lead-copy">
+      <h2>{{ formHeading }}</h2>
+      <p class="lede">{{ formSub }}</p>
+      <ul>{% for b in formBullets %}<li>{{ b }}</li>{% endfor %}</ul>
+    </div>
+    <form class="form" name="site-plan" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="site-plan">
+      <input type="hidden" name="source" value="{{ formSource }}">
+      <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+      <div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+      <div><label for="f-business">Business name</label><input id="f-business" name="business" autocomplete="organization" required></div>
+      <div><label for="f-trade">What you do</label><input id="f-trade" name="trade" placeholder="e.g. roofing, HVAC, basements" required></div>
+      <div><label for="f-city">Main city you serve</label><input id="f-city" name="city" placeholder="e.g. Whitby" required></div>
+      <div><label for="f-email">Email</label><input id="f-email" type="email" name="email" autocomplete="email" required></div>
+      <div><label for="f-phone">Phone</label><input id="f-phone" type="tel" name="phone" autocomplete="tel" required></div>
+      <div class="full"><label for="f-site">Current website <span>(leave blank if you don't have one)</span></label><input id="f-site" name="website" inputmode="url" placeholder="yourbusiness.ca"></div>
+      <div class="full"><label for="f-service">Which option are you leaning toward?</label>
+        <select id="f-service" name="service">
+          <option value="website-in-a-day"{% if formDefault == "website-in-a-day" %} selected{% endif %}>Starter ($499)</option>
+          <option value="custom"{% if formDefault == "custom" %} selected{% endif %}>Growth: Custom website ($499 + $349/mo)</option>
+          <option value="redesign"{% if formDefault == "redesign" %} selected{% endif %}>Redesign of my current website</option>
+          <option value="gbp"{% if formDefault == "gbp" %} selected{% endif %}>Local SEO and Google Business Profile</option>
+          <option value="social"{% if formDefault == "social" %} selected{% endif %}>Organic content creation</option>
+          <option value="not-sure"{% if formDefault == "not-sure" %} selected{% endif %}>Not sure yet, help me choose</option>
+        </select>
+      </div>
+      <div class="full"><button class="btn btn--primary" type="submit">Build my free preview</button></div>
+      <p class="fine full">We use your details only to build your preview and contact you about it. See our <a href="/privacy/">privacy policy</a>.</p>
+    </form>
+  </div>
+</section>
