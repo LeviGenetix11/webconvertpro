@@ -31,7 +31,7 @@ $15 to $25 a day for 7 days per ad set. Don't judge anything before about 1,000 
 We build a working draft of your new homepage first, with your logo, services and city. You see it before you pay a cent.
 
 • Live in 24 hours with our Starter site ($499)
-• Custom Growth sites: $499 (50% to start, 50% before launch), then $349/month for hosting and local SEO
+• Custom Growth sites: $999 (50% to start, 50% before launch), then $349/month for hosting and local SEO
 • Built for roofers, renovators, HVAC, landscapers and more
 
 Tap below and tell us about your business.

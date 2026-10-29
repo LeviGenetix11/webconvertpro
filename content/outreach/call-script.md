@@ -25,7 +25,7 @@ Before you dial: find their Google profile and note the trade, city and review c
 |---|---|
 | "I'm not interested." | "No problem. Can I ask, is it because you're getting enough work, or because you've been burned by a website before?" |
 | "I get all my work from referrals." | "That's the best kind. The website just makes sure referrals can find you and trust you when they Google your name. Can I send a draft?" |
-| "How much is it?" | "The draft is free. If you like it, our Starter site is $499 one-time and goes live in a day — you pay once you approve it, nothing before. Custom Growth builds are $499, half to start and half once you approve it before launch, then $349 a month for hosting and ongoing local SEO. Revisions are unlimited on both, not a capped number of rounds." |
+| "How much is it?" | "The draft is free. If you like it, our Starter site is $499 one-time and goes live in a day — you pay once you approve it, nothing before. Custom Growth builds start at $999, half to start and half once you approve it before launch, then $349 a month for hosting and ongoing local SEO. Revisions are unlimited on both, not a capped number of rounds." |
 | "I already have a guy." | "Great. Is it getting you calls? I can send you my draft so you can compare. No obligation." |
 | "Just email me." | "Sure. What's your email? And what's your biggest frustration with how customers find you right now?" |
 

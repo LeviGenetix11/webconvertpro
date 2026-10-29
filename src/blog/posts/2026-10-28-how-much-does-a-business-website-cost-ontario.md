@@ -63,8 +63,8 @@ A website for a contractor or trade does one job: turn a local search into a pho
 
 At WebConvertPro we keep it simple:
 
-- **Starter: $499 one-time.** Up to five pages, mobile responsive, contact form, on-page SEO setup, live within 24 hours of your approval.
-- **Growth (custom website): $499 build fee (50% to start, 50% before launch), then $349 a month.** Up to eight pages, custom design, conversion-focused layout and technical SEO. The $349/month covers hosting, updates and ongoing local SEO, so the site keeps building traffic and ranking locally after launch. Revisions are unlimited on both packages, not a capped number of rounds.
+- **Starter: starting at $499 one-time.** Up to five pages, mobile responsive, contact form, on-page SEO setup, live within 24 hours of your approval. Most Starter projects land close to that price; it can run more for extra pages or features.
+- **Growth (custom website): starting at $999 build fee (50% to start, 50% before launch), then $349 a month.** Up to eight pages, custom design, conversion-focused layout and technical SEO. The $349/month covers hosting, updates and ongoing local SEO, so the site keeps building traffic and ranking locally after launch. Revisions are unlimited on both packages, not a capped number of rounds.
 - **Optional monthly add-ons (Starter clients, or anyone not on Growth's bundle):** hosting, updates and maintenance at $79 a month, local SEO support at $299 a month, and organic content creation at $399 a month.
 
 All prices are starting points in Canadian dollars, plus HST — final cost depends on your pages, integrations and service area. Domain registration is not included.
