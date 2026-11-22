@@ -5,8 +5,9 @@ Two kinds of numbers live here: **(A) third-party research stats**, already cite
 ## (A) Third-party stats already in use (don't duplicate without re-checking the source still says this)
 Source: `src/index.njk` stats band.
 - 53% of mobile visits are abandoned when a page takes longer than 3 seconds to load. — Google / SOASTA research
-- 75% of people judge a business's credibility based on its website design. — Stanford Web Credibility Project
 - 2.35% is the average website conversion rate; top performers convert at 5%+. — WordStream benchmark data
+
+Removed 2026-11-21: "75% of people judge a business's credibility based on its website design" (Stanford Web Credibility Project) — a widely recited figure that's hard to verify against the original source. TODO: find and check a real replacement third stat before adding one back.
 
 New third-party stats are fair to add here once you've checked the actual source yourself (not pulled secondhand from another blog that may have mangled it).
 
@@ -16,7 +17,7 @@ Until these have real values, don't reference them in copy; lead with the free-p
 | Metric | Value | Last confirmed |
 |---|---|---|
 | Websites launched | — | — |
-| Average time to launch (Starter) | "within 24 hours of approval" (this one's a process guarantee, not a historical average — safe to use as-is) | — |
+| Average time to launch (Starter) | "the next business day after approval" (this one's a process guarantee, not a historical average — safe to use as-is) | — |
 | Years in business | — | — |
 | Google review count / rating | — | — |
 | Average PageSpeed / Lighthouse mobile score delivered | target 90+ (stated goal, not yet a measured average — phrase as a target, not a result) | — |

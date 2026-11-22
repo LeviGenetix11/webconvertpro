@@ -1,0 +1,61 @@
+{#- Three pricing tiers, shared by index.njk and web-design-ajax/index.njk so they can't drift.
+    Optionally set {% set cityQuery = "&city=Ajax" %} before including to tag CTA links with a city. -#}
+<div class="plans">
+  <div class="plan">
+    <span class="tag">Fast build</span>
+    <h3>Starter</h3>
+    <p class="plan-tagline"><strong>Just the website.</strong></p>
+    <p>A fast, mobile-friendly site built to turn local searches into calls and quote requests.</p>
+    <div class="price">Starting at $799 <small>one-time</small></div>
+    <p class="terms">Paid after you approve your preview</p>
+    <ul>
+      <li>Conversion-focused design and copy</li>
+      <li>Mobile-first build</li>
+      <li>Contact form and click-to-call</li>
+      <li>Basic on-page SEO</li>
+      <li>Lead tracking with GA4</li>
+    </ul>
+    <p class="best-for">Best for: businesses that only need a solid website to get online.</p>
+    {% if site.calendarUrl %}<a class="btn btn--ghost" href="{{ site.calendarUrl }}">Book a free audit</a>{% else %}<a class="btn btn--ghost" href="/contact/?service=starter{{ cityQuery or '' }}">Get my free preview</a>{% endif %}
+  </div>
+  <div class="plan">
+    <span class="tag">Custom website</span>
+    <h3>Growth</h3>
+    <p class="plan-tagline"><strong>Website + local visibility.</strong></p>
+    <p>Everything in Starter, plus the ongoing work that gets you found locally.</p>
+    <div class="price">Starting at $1,499 <small>setup</small></div>
+    <p class="price-plus">+ $349 <small>/month</small></p>
+    <p class="terms">50% to start, 50% before launch, then $349/mo</p>
+    <ul>
+      <li>Custom website build</li>
+      <li>Directory and listings setup and management</li>
+      <li>Local SEO, including Google Business Profile optimization</li>
+      <li>Hosting and ongoing maintenance</li>
+    </ul>
+    <p class="best-for">Best for: businesses that want to show up in local searches and keep improving.</p>
+    {% if site.calendarUrl %}<a class="btn btn--primary" href="{{ site.calendarUrl }}">Book a free audit</a>{% else %}<a class="btn btn--primary" href="/contact/?service=growth{{ cityQuery or '' }}">Get my free preview</a>{% endif %}
+  </div>
+  <div class="plan plan--feature">
+    <span class="tag">Most complete</span>
+    <h3>Growth Partner</h3>
+    <p class="plan-tagline"><strong>Website + phone + local visibility + content.</strong></p>
+    <p>A complete growth setup, built around what your business needs.</p>
+    <div class="price">Starting at $1,499 <small>setup</small></div>
+    {#- TODO(Levi): confirm the $699/mo monthly price for Growth Partner. -#}
+    <p class="price-plus">+ $699 <small>/month</small></p>
+    <p class="terms">50% to start, 50% before launch, then $699/mo</p>
+    <ul>
+      <li>Everything in Growth (custom website, directories and listings, local SEO, hosting and maintenance)</li>
+      <li>Dedicated business phone line with call tracking</li>
+      <li>Business cards {#- TODO(Levi): decide scope — e.g. design + first print run, or design only. -#}</li>
+      <li>Automations for follow-ups and lead handling</li>
+      <li>Email campaigns</li>
+      <li>Monthly report</li>
+      <li>Monthly strategy call</li>
+    </ul>
+    <p class="best-for">Best for: businesses that want one team handling their online presence and lead flow.</p>
+    <p class="plan-note">Every Growth Partner plan is customized after a discovery call. We only include what your business actually needs.</p>
+    {% if site.calendarUrl %}<a class="btn btn--primary" href="{{ site.calendarUrl }}">Book a discovery call</a>{% else %}<a class="btn btn--primary" href="/contact/?service=growth-partner{{ cityQuery or '' }}">Book a discovery call</a>{% endif %}
+  </div>
+</div>
+<p class="plans-note">Final pricing is confirmed in writing after a free discovery call. All prices in CAD, plus HST.</p>

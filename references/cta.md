@@ -17,11 +17,12 @@ Canonical calls to action already in production. Reuse these exact phrases on ne
 - "Need it faster? See Starter"
 
 ## Service-specific primary CTAs (keep the `?service=` query param — it pre-selects the form dropdown, see `src/assets/js/main.js`)
-- Starter: `/contact/?service=website-in-a-day` (the query value stayed `website-in-a-day` internally even after the page was renamed to Starter — don't rename it, every existing CTA and the Netlify form field depend on it matching)
-- Custom website: `/contact/?service=custom`
-- Local SEO / GBP: `/contact/?service=gbp`
-- Social content: `/contact/?service=social`
-- Not sure / hub pages: `/contact/?service=not-sure`
+Dropdown values changed 2026-11-21 to match the 3-tier pricing restructure (Starter / Growth / Growth Partner). Current values:
+- Starter: `/contact/?service=starter`
+- Growth (custom website): `/contact/?service=growth`
+- Growth Partner: `/contact/?service=growth-partner`
+- Redesign: `/contact/?service=redesign`
+- Not sure / hub pages / Local SEO / GBP / Social content (no dedicated option anymore): `/contact/?service=not-sure`
 - Location pages additionally pass `&city=<City>` to pre-fill the city field.
 
 ## Lead form section headings (`formHeading` / `formSub`)

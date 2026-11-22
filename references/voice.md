@@ -10,7 +10,7 @@ A straight-talking web designer in Ajax who builds for contractors, trades and o
 - Lead with the benefit or the answer, then explain.
 - One idea per sentence. Cut the second clause if it's just hedging.
 - Active voice. "We build it first" not "It will be built first."
-- Numbers over adjectives: "live within 24 hours" beats "lightning fast."
+- Numbers over adjectives: "live the next business day" beats "lightning fast."
 
 ## Words we don't use
 cheap, basic, template, simple, easy, unlock, leverage, seamless, world-class, game-changer, cutting-edge, "in today's fast-paced world", "dive into", "at the end of the day", "it's important to note that", "whether you're a... or a...".
@@ -28,7 +28,7 @@ Say instead: affordable or fixed-price, essential, proven layout, fast, straight
 
 ## Formatting
 - Canadian English spelling (colour, optimise is American-fine for SEO terms people search, but prefer "optimize" since that's the searched term — match what people type, not the dictionary).
-- Prices as `$499` (no decimals for round numbers), one-time or `/month` spelled out, CAD implied unless stated.
+- Prices as `$799` (no decimals for round numbers), always "starting at," one-time or `/month` spelled out, CAD implied unless stated.
 - Headings are statements or questions, not labels. "How is a website live in one day?" not "Speed."
 - Short paragraphs: 1–3 sentences on the web.
 

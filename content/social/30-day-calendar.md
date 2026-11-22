@@ -7,7 +7,7 @@ Post Monday, Wednesday, Friday on Instagram and Facebook; repost the Reels to Ti
 | 1 | Offer: "I'll build your homepage free" | Tip: put your phone number at the top | Before/after: demo site (renovation) |
 | 2 | Tip: reply to every Google review | Behind the build: 15-minute preview | Offer: "Does your Google profile link to a website?" |
 | 3 | Before/after: demo site (roofing) | Tip: 3 photos every contractor site needs | Behind the build: how a quote form works |
-| 4 | Tip: why mobile speed matters | Before/after: demo site (HVAC) | Offer: Starter at $499, live in a day |
+| 4 | Tip: why mobile speed matters | Before/after: demo site (HVAC) | Offer: Starter starting at $799, live the next business day |
 
 ## Video formats that work for this
 - **Screen recording + voiceover:** "Watch me build a site for a landscaper."

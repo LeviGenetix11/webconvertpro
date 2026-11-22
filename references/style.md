@@ -8,10 +8,10 @@ Small, consistent decisions so new pages match the old ones without a human re-d
 - "GTA" is fine on second mention; spell out "Greater Toronto Area" at least once per page that uses it, for readers who land from outside the region.
 
 ## Numbers and money
-- Prices: `$499`, `$999`, `$349/mo`, `$79/mo` or `$79/month` depending on space — match the existing pattern on the page you're editing. Starter is $499; Growth is $999 — don't mix them up, they sit close together on several pages. Growth is written as "From $999 one-time, then $349/month" (or "from $999 + $349/mo" where space is tight) — not as a single combined figure, and never a bare "$999" without "from"/"starting at."
+- Prices: `$799`, `$1,499`, `$349/mo`, `$699/mo`, `$79/mo` or `$79/month` depending on space — match the existing pattern on the page you're editing. Starter is $799; Growth and Growth Partner both start at $1,499 setup, then $349/mo (Growth) or $699/mo (Growth Partner) — don't mix them up, they sit close together on several pages. Growth is written as "Starting at $1,499 setup, then $349/month" (or "starting at $1,499 + $349/mo" where space is tight) — not as a single combined figure, and every price reads "starting at $X," never a bare number.
 - Always CAD; don't add "CAD" inline in body copy (it's in the schema and footer already), but do say so explicitly on the contact and pricing sections.
 - Percentages and stats: one decimal max ("2.35%"), always cited (`<cite>` tag, see `.stats` block in `styles.css`) with the real source.
-- Round numbers don't get ".0" — "$499" not "$499.00".
+- Round numbers don't get ".0" — "$799" not "$799.00".
 
 ## Dates
 - `YYYY-MM-DD` in filenames and front matter.

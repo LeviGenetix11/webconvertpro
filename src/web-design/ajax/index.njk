@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+title: "Web Design in Ajax, Ontario (Coming Soon) | WebConvertPro"
+description: "A dedicated Growth web design page for Ajax service businesses is coming soon. See our existing Ajax page or get a free preview today."
+permalink: "/web-design/ajax/"
+noindex: true
+---
+
+{#- TODO(Levi), READ BEFORE BUILDING THIS PAGE OUT:
+  content/seo/used-keywords.md already logs "web design ajax" as the primary keyword for
+  /web-design-ajax/ (built earlier from the homepage template). Writing full, unique content
+  here would put two pages after the same primary keyword, which CLAUDE.md's "one keyword,
+  one page" rule explicitly forbids. Before writing real copy for this page, decide one of:
+  1. Redirect /web-design-ajax/ to this URL and move its content here (then 301 the old URL
+     in netlify.toml), so Ajax has one canonical page in the new /web-design/{city}/ pattern.
+  2. Skip Ajax in this new template entirely and only build out Pickering, Whitby and Oshawa —
+     leave /web-design-ajax/ as the one Ajax page.
+  3. Target a different, non-duplicate angle/keyword here if you want both pages to exist.
+  This page is left as a noindex stub (not linked from nav/footer/sitemap) until you choose. -#}
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"}, {"@type": "ListItem", "position": 2, "name": "Web design", "item": "{{ site.url }}/web-design/"}, {"@type": "ListItem", "position": 3, "name": "Ajax", "item": "{{ site.url }}/web-design/ajax/"}]}</script>
+
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/web-design/">Web design</a> / Ajax</nav>
+    <h1>Web design in Ajax — page coming soon</h1>
+    <p class="lede">We already have a dedicated page for Ajax: see <a href="/web-design-ajax/">web design in Ajax</a>. This page is a placeholder in a new city-page template and isn't live content yet.</p>
+    <div class="btn-row"><a class="btn btn--primary" href="/contact/?service=not-sure&amp;city=Ajax">Get my free preview</a></div>
+  </div>
+</section>

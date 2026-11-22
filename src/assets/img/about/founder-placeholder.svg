@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600" role="img" aria-label="Placeholder for founder photo">
+  <rect width="480" height="600" fill="#E8EDF5"/>
+  <circle cx="240" cy="230" r="90" fill="none" stroke="#10213F" stroke-width="10"/>
+  <path d="M90 560c20-110 110-170 150-170s130 60 150 170" fill="none" stroke="#10213F" stroke-width="10" stroke-linecap="round"/>
+</svg>

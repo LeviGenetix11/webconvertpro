@@ -9,21 +9,21 @@
     <form class="form" name="site-plan" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="site-plan">
       <input type="hidden" name="source" value="{{ formSource }}">
+      <p class="fine full">Fields marked <span class="req" aria-hidden="true">*</span> are required.</p>
       <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
-      <div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
-      <div><label for="f-business">Business name</label><input id="f-business" name="business" autocomplete="organization" required></div>
-      <div><label for="f-trade">What you do</label><input id="f-trade" name="trade" placeholder="e.g. roofing, HVAC, basements" required></div>
-      <div><label for="f-city">Main city you serve</label><input id="f-city" name="city" placeholder="e.g. Whitby" required></div>
-      <div><label for="f-email">Email</label><input id="f-email" type="email" name="email" autocomplete="email" required></div>
-      <div><label for="f-phone">Phone</label><input id="f-phone" type="tel" name="phone" autocomplete="tel" required></div>
-      <div class="full"><label for="f-site">Current website <span>(leave blank if you don't have one)</span></label><input id="f-site" name="website" inputmode="url" placeholder="yourbusiness.ca"></div>
+      <div><label for="f-name">Your name <span class="req" aria-hidden="true">*</span></label><input id="f-name" name="name" autocomplete="name" required aria-required="true"></div>
+      <div><label for="f-email">Email <span class="req" aria-hidden="true">*</span></label><input id="f-email" type="email" name="email" autocomplete="email" required aria-required="true"></div>
+      <div><label for="f-phone">Phone <span class="req" aria-hidden="true">*</span></label><input id="f-phone" type="tel" name="phone" autocomplete="tel" required aria-required="true"></div>
+      <div><label for="f-business">Business name <span>(optional)</span></label><input id="f-business" name="business" autocomplete="organization"></div>
+      <div><label for="f-trade">What you do <span>(optional)</span></label><input id="f-trade" name="trade" placeholder="e.g. roofing, HVAC, basements"></div>
+      <div><label for="f-city">Main city you serve <span>(optional)</span></label><input id="f-city" name="city" placeholder="e.g. Whitby"></div>
+      <div class="full"><label for="f-site">Current website <span>(optional — leave blank if you don't have one)</span></label><input id="f-site" name="website" inputmode="url" placeholder="yourbusiness.ca"></div>
       <div class="full"><label for="f-service">Which option are you leaning toward?</label>
         <select id="f-service" name="service">
-          <option value="website-in-a-day"{% if formDefault == "website-in-a-day" %} selected{% endif %}>Starter (from $499)</option>
-          <option value="custom"{% if formDefault == "custom" %} selected{% endif %}>Growth: Custom website (from $999 + $349/mo)</option>
+          <option value="starter"{% if formDefault == "starter" %} selected{% endif %}>Starter (from $799)</option>
+          <option value="growth"{% if formDefault == "growth" %} selected{% endif %}>Growth (from $1,499 + $349/mo)</option>
+          <option value="growth-partner"{% if formDefault == "growth-partner" %} selected{% endif %}>Growth Partner (from $1,499 + $699/mo)</option>
           <option value="redesign"{% if formDefault == "redesign" %} selected{% endif %}>Redesign of my current website</option>
-          <option value="gbp"{% if formDefault == "gbp" %} selected{% endif %}>Local SEO and Google Business Profile</option>
-          <option value="social"{% if formDefault == "social" %} selected{% endif %}>Organic content creation</option>
           <option value="not-sure"{% if formDefault == "not-sure" %} selected{% endif %}>Not sure yet, help me choose</option>
         </select>
       </div>

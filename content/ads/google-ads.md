@@ -23,14 +23,14 @@ free, template, diy, jobs, course, tutorial, salary, wordpress theme, wix, squar
 **Headlines (up to 15, 30 characters max):**
 - Free Website Preview
 - See Your Site Before You Pay
-- Websites Live in 24 Hours
+- Live the Next Business Day
 - Web Design for GTA Trades
-- Starter Websites From $499
+- Starter Sites Starting At $799
 - Built to Get You Calls
 - Local Web Designer, Ajax ON
 
 **Descriptions (90 characters max):**
-- We build your homepage free. You pay only if you love it. Live within 24 hours.
+- We build your homepage free. You pay only if you love it. Live the next business day.
 - Mobile-first websites for contractors and service businesses across the GTA.
 
 ## Conversion tracking

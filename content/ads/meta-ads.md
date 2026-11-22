@@ -21,23 +21,24 @@ $15 to $25 a day for 7 days per ad set. Don't judge anything before about 1,000 
 | No website | "Customers are Googling you. Is there a website for them to find?" |
 | Old website | "Is your website from 2014? Here's what it's costing you." |
 | Speed | "Your site takes 6 seconds to load on a phone. Most visitors leave at 3." |
-| Price | "Professional website, live tomorrow, $499." |
+| Price | "Professional website, live the next business day, starting at $799." |
 
 ## Copy template
 **Primary text:**
 ```
 [Hook]
 
-We build a working draft of your new homepage first, with your logo, services and city. You see it before you pay a cent.
+We build a working draft of your new homepage first, with your services and city. You see it before you pay a cent.
 
-• Live in 24 hours with our Starter site ($499)
-• Custom Growth sites: $999 (50% to start, 50% before launch), then $349/month for hosting and local SEO
+• Live the next business day with our Starter site (starting at $799)
+• Growth: starting at $1,499 setup (50% to start, 50% before launch), then $349/month for hosting and local SEO
+• Growth Partner: everything in Growth plus a tracked phone line and content, starting at $1,499 setup + $699/month
 • Built for roofers, renovators, HVAC, landscapers and more
 
 Tap below and tell us about your business.
 ```
 **Headline:** Free website preview for your business
-**Description:** Live in 24 hours. Pay after you approve.
+**Description:** Live the next business day. Pay after you approve.
 **Button:** Get quote / Learn more
 
 ## Creative

@@ -63,9 +63,10 @@ A website for a contractor or trade does one job: turn a local search into a pho
 
 At WebConvertPro we keep it simple:
 
-- **Starter: starting at $499 one-time.** Up to five pages, mobile responsive, contact form, on-page SEO setup, live within 24 hours of your approval. Most Starter projects land close to that price; it can run more for extra pages or features.
-- **Growth (custom website): starting at $999 build fee (50% to start, 50% before launch), then $349 a month.** Up to eight pages, custom design, conversion-focused layout and technical SEO. The $349/month covers hosting, updates and ongoing local SEO, so the site keeps building traffic and ranking locally after launch. Revisions are unlimited on both packages, not a capped number of rounds.
-- **Optional monthly add-ons (Starter clients, or anyone not on Growth's bundle):** hosting, updates and maintenance at $79 a month, local SEO support at $299 a month, and organic content creation at $399 a month.
+- **Starter: starting at $799 one-time.** Just the website — conversion-focused design and copy, mobile-first build, contact form and click-to-call, basic on-page SEO, and lead tracking with GA4. Most Starter projects land close to that price; it can run more for extra pages or features.
+- **Growth: starting at $1,499 setup (50% to start, 50% before launch), then $349 a month.** Everything in Starter, plus a custom website build, directory and listings setup, local SEO including Google Business Profile optimization, and hosting and ongoing maintenance.
+- **Growth Partner: starting at $1,499 setup, then $699 a month.** Everything in Growth, plus a dedicated business phone line with call tracking, business cards, follow-up automations, email campaigns, a monthly report and a monthly strategy call. Every Growth Partner plan is customized after a discovery call.
+- **Optional monthly add-ons (Starter clients only):** hosting, updates and maintenance starting at $79 a month, local SEO support starting at $299 a month, and organic content creation starting at $399 a month.
 
 All prices are starting points in Canadian dollars, plus HST — final cost depends on your pages, integrations and service area. Domain registration is not included.
 
