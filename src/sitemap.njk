@@ -4,12 +4,20 @@ eleventyExcludeFromCollections: true
 excludeFromSitemap: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 {%- for item in collections.sitemapPages %}
   <url>
     <loc>{{ site.url }}{{ item.url }}</loc>
     {%- if item.data.tags and "post" in item.data.tags %}
     <lastmod>{{ (item.data.updated or item.date) | dateISO }}</lastmod>
+    {%- endif %}
+    {%- if item.data.video %}
+    <video:video>
+      <video:thumbnail_loc>{{ site.url }}{{ item.data.video.thumbnail }}</video:thumbnail_loc>
+      <video:title>{{ item.data.video.title }}</video:title>
+      <video:description>{{ item.data.video.description }}</video:description>
+      <video:content_loc>{{ site.url }}{{ item.data.video.contentUrl }}</video:content_loc>
+    </video:video>
     {%- endif %}
   </url>
 {%- endfor %}

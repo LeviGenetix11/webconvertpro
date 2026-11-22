@@ -1,0 +1,5 @@
+WEBVTT
+
+NOTE TODO(Levi): add real captions for founder-intro.mov. This file is an
+empty placeholder (no cues) so the <track> element doesn't 404 — replace
+its contents with real timed captions, or regenerate one from a transcript.
