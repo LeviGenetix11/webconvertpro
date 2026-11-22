@@ -35,28 +35,26 @@ video:
 </section>
 
 <section class="section section--mist" aria-labelledby="founder-h">
-  <div class="wrap split">
-    <div>
-      <h2 id="founder-h">Meet the founder</h2>
-      <h3>Levi Lindsay — founder of Web Convert Pro</h3>
-      {#- TODO(Levi): /assets/img/about/founder-placeholder.svg is a placeholder silhouette, used below as both the video poster and its thumbnail. Swap it for a real photo or an actual video still frame (same file name, or update the paths in this page's front matter and the <video poster> below). #}
-      <div class="founder-video" id="founder-video">
-        <video controls preload="metadata" poster="{{ video.thumbnail }}" aria-label="Introduction video from Levi Lindsay, founder of Web Convert Pro">
-          <source src="{{ video.contentUrl }}" type="video/mp4">
-          <track kind="captions" srclang="en" label="English" src="/assets/video/founder-intro.en.vtt" default>
-          Your browser can't play this video directly. <a href="{{ video.contentUrl }}">Download it</a> instead.
-        </video>
-      </div>
-      <p class="video-caption">Hear from our founder, Levi Lindsay, about how Web Convert Pro works with local businesses.</p>
-      <div class="faq">
-        <details>
-          <summary>Read the transcript</summary>
-          <div><p>{# TODO(Levi): paste the real transcript here. #}Transcript not yet available.</p></div>
-        </details>
-      </div>
-      <div class="btn-row"><a class="btn btn--primary" href="/contact/?service=not-sure">Book a discovery call</a></div>
+  <div class="wrap">
+    <h2 id="founder-h">Meet the founder</h2>
+    <h3>Levi Lindsay — founder of Web Convert Pro</h3>
+    {#- TODO(Levi): /assets/img/about/founder-placeholder.svg is a placeholder silhouette, used below as both the video poster and its thumbnail. Swap it for a real photo or an actual video still frame (same file name, or update the paths in this page's front matter and the <video poster> below). #}
+    <div class="founder-video" id="founder-video">
+      <video controls preload="metadata" poster="{{ video.thumbnail }}" aria-label="Introduction video from Levi Lindsay, founder of Web Convert Pro">
+        <source src="{{ video.contentUrl }}" type="video/mp4">
+        <track kind="captions" srclang="en" label="English" src="/assets/video/founder-intro.en.vtt" default>
+        Your browser can't play this video directly. <a href="{{ video.contentUrl }}">Download it</a> instead.
+      </video>
     </div>
-    <div>
+    <p class="video-caption">Hear from our founder, Levi Lindsay, about how Web Convert Pro works with local businesses.</p>
+    <div class="faq">
+      <details>
+        <summary>Read the transcript</summary>
+        <div><p>{# TODO(Levi): paste the real transcript here. #}Transcript not yet available.</p></div>
+      </details>
+    </div>
+    <div class="btn-row"><a class="btn btn--primary" href="/contact/?service=not-sure">Book a discovery call</a></div>
+    <div class="founder-bio">
       <p>Web Convert Pro was founded by Levi Lindsay, a marketing and business development professional with experience working across multiple sectors of the business world.</p>
       <p>After spending years working in marketing and technology-driven companies, Levi developed a strong understanding of what it takes to attract customers, communicate value, and turn interest into business.</p>
       <p>His experience spans digital marketing, content creation, sales, and customer relations. Working across these different areas has given him a unique perspective on business — not just how to market a product or service, but how to understand the customer, identify what they actually need, and build something that delivers on those expectations.</p>
