@@ -66,6 +66,24 @@ const posts = {
     "your-real-work": { query: "renovation before after", alt: "Before and after renovation photos" },
     "proof-legitimate": { query: "contractor license certificate", alt: "Contractor license and certification documents" },
   },
+  "how-long-does-local-seo-take-to-work": {
+    hero: { query: "calendar growth chart desk", alt: "Calendar and upward growth chart representing a local SEO timeline" },
+    "timeline-calendar": { query: "desk calendar planning", alt: "Calendar and growth chart on a desk" },
+    "checking-rankings": { query: "business owner laptop charts", alt: "Small business owner checking search rankings on a laptop" },
+    "gbp-map-search": { query: "smartphone map search pin", alt: "Google Business Profile shown on a smartphone map search" },
+  },
+  "how-much-does-local-seo-cost": {
+    hero: { query: "calculator map pin desk", alt: "Calculator and local map pin representing local SEO pricing" },
+    "calculator-map-pin": { query: "calculator coins desk", alt: "Calculator sitting next to a local map pin icon" },
+    "monthly-report-review": { query: "business owner reviewing report laptop", alt: "Business owner reviewing a monthly report on a laptop" },
+    "storefront-map-pin": { query: "small storefront street sign", alt: "Small business storefront with a Google Maps pin overlay" },
+  },
+  "how-to-get-more-google-reviews": {
+    hero: { query: "person using smartphone review", alt: "Customer leaving a Google review on a smartphone" },
+    "leaving-review-phone": { query: "hand holding phone typing", alt: "Customer leaving a Google review on a smartphone" },
+    "qr-code-scan": { query: "qr code scan smartphone", alt: "QR code being scanned with a smartphone" },
+    "five-star-reviews": { query: "five star rating review", alt: "Five-star reviews displayed for a local business" },
+  },
 };
 
 async function searchPexels(query, apiKey) {

@@ -59,6 +59,24 @@ Every primary keyword that already has a page. The `/blog` and `/service` skills
 - **Secondaries:** website designer ajax (invented), ajax web design company (invented), web design company near me ajax (invented), custom website ajax ontario (invented)
 - **Source:** no `Service-keywords.csv` exists in this project (only `SEO_brief/Service-keywords.csv`, which belongs to the unrelated plumbing demo project and was not used). Picked from `content/seo/keyword-map.md` → "Local city pages" / keyword pool. Volume (50) and difficulty (Low) are unverified estimates.
 
+### how long does local seo take to work
+- **Page:** `/blog/how-long-does-local-seo-take-to-work/`
+- **Type:** Blog post
+- **Secondaries:** local seo timeline, how long does seo take for a new website, when will my google business profile start ranking, local seo results timeline
+- **Source:** verified via Semrush `phrase_these` (database `ca`): volume 90/mo, keyword difficulty 17, informational intent. Not yet in `keyword-map.md`'s pool — added below.
+
+### how much does local seo cost
+- **Page:** `/blog/how-much-does-local-seo-cost/`
+- **Type:** Blog post
+- **Secondaries:** local seo pricing, local seo packages, google business profile management cost, local seo cost per month
+- **Source:** verified via Semrush `phrase_these` (database `ca`): volume 20/mo, CPC $0, competition 0.21. Not yet in `keyword-map.md`'s pool — added below.
+
+### how to get more google reviews for my business
+- **Page:** `/blog/how-to-get-more-google-reviews/`
+- **Type:** Blog post
+- **Secondaries:** get google reviews, google review link, ask customers for reviews, google business profile reviews
+- **Source:** verified via Semrush `phrase_these` (database `ca`): volume 20/mo, CPC $9.28, competition 0.77. Not yet in `keyword-map.md`'s pool — added below. Note: the pool's existing "website not generating leads what to do" (est. 400/mo) was checked and returned no tracked volume in Semrush's `ca` database — flagging that estimate as likely wrong rather than picking it.
+
 ---
 
 ## How to add an entry

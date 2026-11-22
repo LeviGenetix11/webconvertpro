@@ -172,5 +172,107 @@
       "pexelsUrl": "https://www.pexels.com/photo/men-reviewing-architectonic-plans-together-6285155/",
       "publicPath": "/assets/img/blog/what-to-put-on-a-contractor-website-homepage/proof-legitimate.jpg"
     }
+  },
+  "how-long-does-local-seo-take-to-work": {
+    "hero": {
+      "alt": "Calendar and upward growth chart representing a local SEO timeline",
+      "query": "calendar growth chart desk",
+      "photographer": "RDNE Stock project",
+      "photographerUrl": "https://www.pexels.com/@rdne",
+      "pexelsUrl": "https://www.pexels.com/photo/calendar-with-deadline-reminder-7580856/",
+      "publicPath": "/assets/img/blog/how-long-does-local-seo-take-to-work/hero.jpg"
+    },
+    "timeline-calendar": {
+      "alt": "Calendar and growth chart on a desk",
+      "query": "desk calendar planning",
+      "photographer": "RDNE Stock project",
+      "photographerUrl": "https://www.pexels.com/@rdne",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-writing-on-calendar-6172482/",
+      "publicPath": "/assets/img/blog/how-long-does-local-seo-take-to-work/timeline-calendar.jpg"
+    },
+    "checking-rankings": {
+      "alt": "Small business owner checking search rankings on a laptop",
+      "query": "business owner laptop charts",
+      "photographer": "Yan Krukau",
+      "photographerUrl": "https://www.pexels.com/@yankrukov",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-in-white-long-sleeve-shirt-holding-a-document-7693217/",
+      "publicPath": "/assets/img/blog/how-long-does-local-seo-take-to-work/checking-rankings.jpg"
+    },
+    "gbp-map-search": {
+      "alt": "Google Business Profile shown on a smartphone map search",
+      "query": "smartphone map search pin",
+      "photographer": "Theo  Decker",
+      "photographerUrl": "https://www.pexels.com/@theo-decker",
+      "pexelsUrl": "https://www.pexels.com/photo/person-wearing-bracelets-holding-black-phone-5448160/",
+      "publicPath": "/assets/img/blog/how-long-does-local-seo-take-to-work/gbp-map-search.jpg"
+    }
+  },
+  "how-much-does-local-seo-cost": {
+    "hero": {
+      "alt": "Calculator and local map pin representing local SEO pricing",
+      "query": "calculator map pin desk",
+      "photographer": "DS stories",
+      "photographerUrl": "https://www.pexels.com/@ds-stories",
+      "pexelsUrl": "https://www.pexels.com/photo/school-and-office-supplies-on-a-pink-surface-8099596/",
+      "publicPath": "/assets/img/blog/how-much-does-local-seo-cost/hero.jpg"
+    },
+    "calculator-map-pin": {
+      "alt": "Calculator sitting next to a local map pin icon",
+      "query": "calculator coins desk",
+      "photographer": "Tara Winstead",
+      "photographerUrl": "https://www.pexels.com/@tara-winstead",
+      "pexelsUrl": "https://www.pexels.com/photo/calculator-red-pen-and-coins-on-notepad-7111496/",
+      "publicPath": "/assets/img/blog/how-much-does-local-seo-cost/calculator-map-pin.jpg"
+    },
+    "monthly-report-review": {
+      "alt": "Business owner reviewing a monthly report on a laptop",
+      "query": "business owner reviewing report laptop",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/man-in-black-suit-jacket-analyzing-data-reports-7567485/",
+      "publicPath": "/assets/img/blog/how-much-does-local-seo-cost/monthly-report-review.jpg"
+    },
+    "storefront-map-pin": {
+      "alt": "Small business storefront with a Google Maps pin overlay",
+      "query": "small storefront street sign",
+      "photographer": "Tolga Ahmetler",
+      "photographerUrl": "https://www.pexels.com/@tahmetler",
+      "pexelsUrl": "https://www.pexels.com/photo/a-bicycle-parked-in-front-of-a-shop-in-city-20628308/",
+      "publicPath": "/assets/img/blog/how-much-does-local-seo-cost/storefront-map-pin.jpg"
+    }
+  },
+  "how-to-get-more-google-reviews": {
+    "hero": {
+      "alt": "Customer leaving a Google review on a smartphone",
+      "query": "person using smartphone review",
+      "photographer": "Darlene Alderson",
+      "photographerUrl": "https://www.pexels.com/@darlene-alderson",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-smartphone-near-the-desktop-computer-7971544/",
+      "publicPath": "/assets/img/blog/how-to-get-more-google-reviews/hero.jpg"
+    },
+    "leaving-review-phone": {
+      "alt": "Customer leaving a Google review on a smartphone",
+      "query": "hand holding phone typing",
+      "photographer": "MART  PRODUCTION",
+      "photographerUrl": "https://www.pexels.com/@mart-production",
+      "pexelsUrl": "https://www.pexels.com/photo/person-in-gray-shirt-holding-black-smartphone-7641426/",
+      "publicPath": "/assets/img/blog/how-to-get-more-google-reviews/leaving-review-phone.jpg"
+    },
+    "qr-code-scan": {
+      "alt": "QR code being scanned with a smartphone",
+      "query": "qr code scan smartphone",
+      "photographer": "Pixabay",
+      "photographerUrl": "https://www.pexels.com/@pixabay",
+      "pexelsUrl": "https://www.pexels.com/photo/qr-code-on-screengrab-278430/",
+      "publicPath": "/assets/img/blog/how-to-get-more-google-reviews/qr-code-scan.jpg"
+    },
+    "five-star-reviews": {
+      "alt": "Five-star reviews displayed for a local business",
+      "query": "five star rating review",
+      "photographer": "Towfiqu barbhuiya",
+      "photographerUrl": "https://www.pexels.com/@towfiqu-barbhuiya-3440682",
+      "pexelsUrl": "https://www.pexels.com/photo/five-yellow-stars-on-blue-and-pink-background-9821386/",
+      "publicPath": "/assets/img/blog/how-to-get-more-google-reviews/five-star-reviews.jpg"
+    }
   }
 }

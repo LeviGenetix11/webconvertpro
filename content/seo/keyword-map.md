@@ -25,10 +25,13 @@
 | web design toronto | 1,300 | Medium | Local | City page (later) |
 | how to improve website conversion rate | 1,600 | Low | Info | Blog (published) |
 | best web design company for small business | 800 | Low | Commercial | Blog |
-| website not generating leads what to do | 400 | Low | Info | Blog |
+| website not generating leads what to do | 400 (checked 2026-11-21 via Semrush: no tracked volume in `ca` database — this estimate looks wrong) | Low | Info | Blog (not used — see note) |
 | web design oshawa | 70 | Low | Local | City page |
 | web design ajax | 50 | Low | Local | City page (published) |
 | web design pickering | 30 | Low | Local | City page |
+| how long does local seo take to work | 90 (verified, Semrush `ca`) | 17 (verified) | Info | Blog (published) |
+| how much does local seo cost | 20 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
+| how to get more google reviews for my business | 20 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
 
 ## Local city pages (build after the core pages rank)
 One page per city, each with unique content (local examples, local reviews, local trades), not a copy with the city swapped:

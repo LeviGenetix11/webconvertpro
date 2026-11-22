@@ -17,7 +17,7 @@ faqs:
   - q: "How fast does my website need to load?"
     a: "Under 2 seconds on mobile is the target. 53% of mobile visits get abandoned once a page passes 3 seconds, and a service-business visitor who's already comparing five companies has no reason to wait around for yours."
   - q: "Is a custom website worth it just for a better conversion rate?"
-    a: "Not on its own. A $499 Starter site with a clear call to action and click-to-call will outconvert a slow custom site every time. Custom design earns its price when you need more pages, more services, or a brand that has to compete harder than a proven layout can."
+    a: "Not on its own. A $799 Starter site with a clear call to action and click-to-call will outconvert a slow custom site every time. Custom design earns its price when you need more pages, more services, or a brand that has to compete harder than a proven layout can."
 ---
 
 Most advice on improving conversion rate is written for online stores, not for a business that gets hired after a phone call. If you run a service business, your "conversion" isn't a cart checkout. It's someone calling you or filling out a form instead of clicking back to try the next company in the search results. The average site converts 2.35% of visitors into one of those two things; the better ones hit 5% or higher. Getting from one to the other is usually a handful of specific fixes, not a redesign.
@@ -85,7 +85,7 @@ Run your site through [Google PageSpeed Insights](https://pagespeed.web.dev/) an
 
 ## Show proof a real local business would trust
 
-75% of people judge a business's credibility based on its website design alone, before they've spoken to anyone. For a service business, that credibility check often comes down to a handful of specific signals: real reviews (not a generic "5-star rated!" badge with no reviews attached), real photos of your actual work, and a service area that names real cities instead of "serving the GTA and beyond."
+Before anyone calls or fills out a form, they're sizing up whether your business looks legitimate. For a service business, that credibility check often comes down to a handful of specific signals: real reviews (not a generic "5-star rated!" badge with no reviews attached), real photos of your actual work, and a service area that names real cities instead of "serving the GTA and beyond."
 
 If you don't have reviews yet, don't fake them. Lead with something true instead: a clear guarantee, a straightforward price, or the offer to see the finished site before paying for it. A specific, honest claim beats a vague confident one every time.
 
