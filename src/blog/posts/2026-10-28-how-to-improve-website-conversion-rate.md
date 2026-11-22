@@ -1,26 +1,26 @@
 ---
 title: "How to Improve Your Website's Conversion Rate"
 seoTitle: "How to Improve Your Website Conversion Rate"
-description: "A practical guide to raising your website's conversion rate: clear next steps, faster load times, trust signals and fixes built for local service businesses."
+description: "A practical guide to raising your website's conversion rate: clear next steps, faster load times and trust signals for home services businesses."
 date: 2026-10-28
 category: Conversion rate
 targetKeyword: how to improve website conversion rate
 image: /assets/img/blog/how-to-improve-website-conversion-rate/hero.jpg
 imageAlt: "Website analytics dashboard showing visitor and conversion data"
 faqs:
-  - q: "What's a good conversion rate for a small service-business website?"
+  - q: "What's a good conversion rate for a small home services business website?"
     a: "The average website converts about 2.35% of visitors. Sites doing it well convert 5% or more. If you're under 2%, there's usually one obvious thing in the way, not ten small ones."
   - q: "How do I calculate my website's conversion rate?"
     a: "Conversions divided by total visitors, times 100. If 400 people visited your site last month and 10 called or filled out your form, that's a 2.5% conversion rate. Google Analytics 4 will track this for you once it's set up."
   - q: "Does live chat actually help convert visitors?"
-    a: "It can, especially for a service business where someone has one quick question (do you cover my area, can you come this week) before they'll commit. It's not a fix for a slow page or a buried phone number, though. Fix those first."
+    a: "It can, especially for a home services business where someone has one quick question (do you cover my area, can you come this week) before they'll commit. It's not a fix for a slow page or a buried phone number, though. Fix those first."
   - q: "How fast does my website need to load?"
-    a: "Under 2 seconds on mobile is the target. 53% of mobile visits get abandoned once a page passes 3 seconds, and a service-business visitor who's already comparing five companies has no reason to wait around for yours."
+    a: "Under 2 seconds on mobile is the target. 53% of mobile visits get abandoned once a page passes 3 seconds, and a home services business visitor who's already comparing five companies has no reason to wait around for yours."
   - q: "Is a custom website worth it just for a better conversion rate?"
     a: "Not on its own. A $799 Starter site with a clear call to action and click-to-call will outconvert a slow custom site every time. Custom design earns its price when you need more pages, more services, or a brand that has to compete harder than a proven layout can."
 ---
 
-Most advice on improving conversion rate is written for online stores, not for a business that gets hired after a phone call. If you run a service business, your "conversion" isn't a cart checkout. It's someone calling you or filling out a form instead of clicking back to try the next company in the search results. The average site converts 2.35% of visitors into one of those two things; the better ones hit 5% or higher. Getting from one to the other is usually a handful of specific fixes, not a redesign.
+Most advice on improving conversion rate is written for online stores, not for a business that gets hired after a phone call. If you run a home services business, your "conversion" isn't a cart checkout. It's someone calling you or filling out a form instead of clicking back to try the next company in the search results. The average site converts 2.35% of visitors into one of those two things; the better ones hit 5% or higher. Getting from one to the other is usually a handful of specific fixes, not a redesign.
 
 That matters because of what it costs you when it doesn't happen. A contractor paying for ads or ranking well in local search is already winning the hard part: getting a real, in-market visitor to the page. A low conversion rate doesn't mean you need more traffic. It means you're paying (in ad spend, in SEO time, in referrals) to bring people to a door that doesn't open easily. Fix the door first.
 
@@ -56,7 +56,7 @@ Pick one primary action per page and repeat it. If your hero button says "Get a 
 
 ## Get people to your phone number in one tap
 
-This is the one most generic conversion-rate guides skip entirely, because they're written for e-commerce. For a service business, the phone number is often the highest-converting thing on the page, and it needs to work like a phone number, not like text that happens to contain digits.
+This is the one most generic conversion-rate guides skip entirely, because they're written for e-commerce. For a home services business, the phone number is often the highest-converting thing on the page, and it needs to work like a phone number, not like text that happens to contain digits.
 
 Three things to check right now:
 - Is your phone number a real `tel:` link, or just text someone has to copy and dial manually?
@@ -85,7 +85,7 @@ Run your site through [Google PageSpeed Insights](https://pagespeed.web.dev/) an
 
 ## Show proof a real local business would trust
 
-Before anyone calls or fills out a form, they're sizing up whether your business looks legitimate. For a service business, that credibility check often comes down to a handful of specific signals: real reviews (not a generic "5-star rated!" badge with no reviews attached), real photos of your actual work, and a service area that names real cities instead of "serving the GTA and beyond."
+Before anyone calls or fills out a form, they're sizing up whether your business looks legitimate. For a home services business, that credibility check often comes down to a handful of specific signals: real reviews (not a generic "5-star rated!" badge with no reviews attached), real photos of your actual work, and a service area that names real cities instead of "serving the GTA and beyond."
 
 If you don't have reviews yet, don't fake them. Lead with something true instead: a clear guarantee, a straightforward price, or the offer to see the finished site before paying for it. A specific, honest claim beats a vague confident one every time.
 

@@ -1,6 +1,6 @@
 # WebConvertPro — project rules
 
-Marketing site for WebConvertPro: web design, local SEO and social content for GTA service businesses. This file is read before any content or SEO work — treat it the way you'd train a new hire.
+Marketing site for WebConvertPro: web design, local SEO and social content for GTA home services (home improvement) businesses — contractors, renovators, roofers, plumbers, electricians, HVAC, landscapers, painters and cleaners. This file is read before any content or SEO work — treat it the way you'd train a new hire.
 
 ## Tech stack
 - **Framework:** Eleventy (`@11ty/eleventy`), templates in Nunjucks (`.njk`), posts in Markdown.

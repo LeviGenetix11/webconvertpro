@@ -1,5 +1,5 @@
 ---
-title: "How Much Does Local SEO Cost for a GTA Service Business?"
+title: "How Much Does Local SEO Cost for a GTA Home Services Business?"
 seoTitle: "How Much Does Local SEO Cost? (2026 Pricing Guide)"
 description: "Local SEO typically runs $100 to $3,000 a month. Here's what drives the price, what's included at each level, and what it costs through WebConvertPro."
 date: 2026-11-21
@@ -15,7 +15,7 @@ faqs:
   - q: "What's the difference between local SEO and my Google Business Profile?"
     a: "Your Google Business Profile is one piece of local SEO, the listing itself. Local SEO also includes citations across other directories, review management and the on-page and technical SEO on your actual website that supports it."
   - q: "Can I do local SEO myself instead of paying for it?"
-    a: "Yes, if you have the time to do it consistently every month: claiming and optimizing your profile, requesting reviews after every job, posting regularly, and keeping your listings accurate. Most service business owners who try this stop after a month or two because the jobs come first. That's the actual thing you're paying for: someone else doing it every month whether or not you had time to."
+    a: "Yes, if you have the time to do it consistently every month: claiming and optimizing your profile, requesting reviews after every job, posting regularly, and keeping your listings accurate. Most home services business owners who try this stop after a month or two because the jobs come first. That's the actual thing you're paying for: someone else doing it every month whether or not you had time to."
 ---
 
 How much does local SEO cost? Across the market, local SEO typically runs anywhere from $100 to $3,000 or more a month, with most small businesses in low-competition markets landing between $500 and $1,000, and growing businesses in more competitive trades often paying $1,000 to $2,500. That range is wide because "local SEO" can mean a basic Google Business Profile tune-up or a full monthly program of listings, reviews and ongoing optimization. What you're actually buying at each price point matters more than the number itself.

@@ -4,10 +4,11 @@ Every primary keyword that already has a page. The `/blog` and `/service` skills
 
 ## Active primaries
 
-### web design for service businesses GTA
+### web design for home services businesses GTA
 - **Page:** `/`
 - **Type:** Home page
 - **Secondaries:** website design services, small business web design
+- **Note:** renamed from "web design for service businesses GTA" on 2026-11-22 — the site's niche was clarified to home services (home improvement) specifically, not service businesses generally.
 
 ### fast website for small business
 - **Page:** `/starter/` (renamed from `/website-in-a-day/` on 2026-10-29, redirect in `netlify.toml`)

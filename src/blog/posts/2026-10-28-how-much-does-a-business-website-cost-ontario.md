@@ -1,7 +1,7 @@
 ---
 title: "How Much Does a Small Business Website Cost in Ontario?"
 seoTitle: "Business Website Cost in Ontario (2026 Price Guide)"
-description: "What a small business website really costs in Ontario, what drives the price up, and how to pick the right option for a service business."
+description: "What a small business website really costs in Ontario, what drives the price up, and how to pick the right option for a home services business."
 date: 2026-10-28
 category: Pricing
 targetKeyword: how much does a business website cost
@@ -9,7 +9,7 @@ image: /assets/img/blog/how-much-does-a-business-website-cost-ontario/hero.jpg
 imageAlt: "Calculator and invoice representing a website cost estimate"
 ---
 
-If you run a service business in the GTA, you have probably seen website quotes anywhere from a few hundred dollars to more than ten thousand. That range is real. The difference comes down to what you get, who does the work, and what you pay for every month afterwards.
+If you run a home services business in the GTA, you have probably seen website quotes anywhere from a few hundred dollars to more than ten thousand. That range is real. The difference comes down to what you get, who does the work, and what you pay for every month afterwards.
 
 This guide breaks down the common price levels so you can compare quotes properly.
 
@@ -20,7 +20,7 @@ This guide breaks down the common price levels so you can compare quotes properl
 | Option | Typical cost (CAD) | Best for |
 |---|---|---|
 | DIY builder (Wix, Squarespace) | $20 to $60 per month, plus your time | A business with more time than budget |
-| Fast, done-for-you small business site | Roughly $500 to $1,500 once | A service business that needs to look professional now |
+| Fast, done-for-you small business site | Roughly $500 to $1,500 once | A home services business that needs to look professional now |
 | Custom-designed site | Roughly $1,500 to $5,000 and up | A business competing for several services across several cities |
 
 These are ranges, not rules. Always ask what is included before comparing prices.
@@ -49,7 +49,7 @@ These are ranges, not rules. Always ask what is included before comparing prices
 - **Revisions.** Ask how many rounds of changes you get before launch.
 - **Ownership.** Make sure you own your domain, content and site files once you have paid.
 
-## What a service business should look for
+## What a home services business should look for
 
 A website for a contractor or trade does one job: turn a local search into a phone call or a quote request. Check that any quote you are considering includes:
 

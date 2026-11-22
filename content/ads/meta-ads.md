@@ -1,6 +1,6 @@
 # Meta (Facebook and Instagram) ads
 
-Goal: get GTA service business owners to request a free preview. Start small, learn, then scale.
+Goal: get GTA home services business owners to request a free preview. Start small, learn, then scale.
 
 ## Offer
 **"We build your new homepage free. You only pay if you love it."**

@@ -9,6 +9,6 @@ content/outreach/lead-lists/*
 # Unrelated side projects that happen to live in this same folder — not part of
 # the WebConvertPro site, not built by Eleventy, and SEO_brief/SEO-local are
 # already their own separate git repos. Don't pull them into this one.
-SEO_brief/
-SEO-local/
-locations/
+/SEO_brief/
+/SEO-local/
+/locations/

@@ -4,7 +4,7 @@
 Websites that work as hard as you do.
 
 ## Who we serve
-Service businesses in the GTA: contractors, renovators, roofers, HVAC, landscapers, painters, cleaners. Home base: Ajax, Durham Region.
+Home services (home improvement) businesses in the GTA: contractors, renovators, roofers, plumbers, electricians, HVAC, landscapers, painters, cleaners. Not clinics, not retail, not professional services generally — the niche is home improvement specifically. Home base: Ajax, Durham Region.
 
 ## Voice
 Confident, direct, plain. Short sentences. Lead with the benefit. Use numbers when we have them. Talk to a busy owner, not a marketer.

@@ -31,7 +31,7 @@ free, template, diy, jobs, course, tutorial, salary, wordpress theme, wix, squar
 
 **Descriptions (90 characters max):**
 - We build your homepage free. You pay only if you love it. Live the next business day.
-- Mobile-first websites for contractors and service businesses across the GTA.
+- Mobile-first websites for contractors and home services businesses across the GTA.
 
 ## Conversion tracking
 Track the `/thank-you/` page as the conversion in Google Ads (and in GA4 as an event).

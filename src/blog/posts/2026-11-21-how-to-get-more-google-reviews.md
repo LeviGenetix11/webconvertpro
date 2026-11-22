@@ -1,14 +1,14 @@
 ---
 title: "How to Get More Google Reviews for Your Business"
 seoTitle: "How to Get More Google Reviews for Your Business"
-description: "More Google reviews mean more calls from the map pack. Here are the real tactics that work for a GTA service business, plus what never to do."
+description: "More Google reviews mean more calls from the map pack. Here are the real tactics that work for a GTA home services business, plus what never to do."
 date: 2026-11-21
 category: Local SEO
 targetKeyword: how to get more google reviews for my business
 image: /assets/img/blog/how-to-get-more-google-reviews/hero.jpg
 imageAlt: "Customer leaving a Google review on a smartphone"
 faqs:
-  - q: "How many Google reviews does a service business actually need?"
+  - q: "How many Google reviews does a home services business actually need?"
     a: "There's no magic number, but once you're past 10 to 20, each new review matters less for trust and more for keeping your average rating current. The bigger factor is usually how recent your reviews are, not just the count."
   - q: "Can I offer a discount for a review?"
     a: "No. Google's policies prohibit incentivized reviews, and it also undermines the point, a review you paid for isn't proof to anyone else. Ask because the work speaks for itself, not because there's something in it for the customer."
@@ -18,7 +18,7 @@ faqs:
     a: "It's one signal among several that Google weighs for local ranking, and it directly affects whether people who read your reviews decide to call. An active review thread, replies included, reads as a business that's actually paying attention."
 ---
 
-The fastest way to get more Google reviews is to ask at the right moment, with a one-tap link, every single time, not as an occasional campaign. Service businesses that treat review requests as a routine step after every job consistently out-rank and out-convert the ones that ask only when they remember to.
+The fastest way to get more Google reviews is to ask at the right moment, with a one-tap link, every single time, not as an occasional campaign. Home services businesses that treat review requests as a routine step after every job consistently out-rank and out-convert the ones that ask only when they remember to.
 
 ![Customer leaving a Google review on a smartphone](/assets/img/blog/how-to-get-more-google-reviews/leaving-review-phone.jpg)
 

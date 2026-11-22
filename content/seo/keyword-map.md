@@ -5,7 +5,7 @@
 ## Pages already on the site
 | Page | Main keyword | Secondary keywords |
 |---|---|---|
-| `/` | web design for service businesses GTA | website design services, small business web design |
+| `/` | web design for home services businesses GTA | website design services, small business web design |
 | `/starter/` | fast website for small business | quick small business website, website live in 24 hours |
 | `/web-design/` | small business web design | custom website design, website redesign services |
 | `/google-business-profile/` | google business profile management | local SEO services, google maps ranking |

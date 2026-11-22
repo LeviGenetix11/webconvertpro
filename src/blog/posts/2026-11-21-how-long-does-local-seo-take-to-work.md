@@ -28,7 +28,7 @@ How long does local SEO take to work? Most local SEO work shows its first small 
 
 **Months 2 to 3.** Google starts noticing you exist. Impressions tick up in Search Console, a keyword or two moves onto page two, and your profile may start appearing for easier, lower-competition searches.
 
-**Months 3 to 6.** This is where most service businesses start feeling it: calls, direction requests, map-pack visibility for your actual service-plus-city searches. Reviews and citations compound from here, each one making the next one count for a little more.
+**Months 3 to 6.** This is where most home services businesses start feeling it: calls, direction requests, map-pack visibility for your actual service-plus-city searches. Reviews and citations compound from here, each one making the next one count for a little more.
 
 **Months 6 to 12.** For competitive markets or crowded trades, this is when you're genuinely fighting for the top three map-pack spots, not just appearing somewhere on the page.
 

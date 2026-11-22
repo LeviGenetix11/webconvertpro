@@ -3,7 +3,7 @@
 Source of truth for tone is `content/brand/brand.md`. This file expands it into rules you can check a draft against before publishing.
 
 ## Who's talking
-A straight-talking web designer in Ajax who builds for contractors, trades and other local service businesses. Confident, direct, plain. Talking to a busy owner between jobs, not to a marketing department.
+A straight-talking web designer in Ajax who builds for contractors, trades and other home services (home improvement) businesses. Confident, direct, plain. Talking to a busy owner between jobs, not to a marketing department.
 
 ## Sentence rhythm
 - Short sentences. Vary length, but default short.
