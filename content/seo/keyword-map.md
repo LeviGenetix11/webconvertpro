@@ -32,10 +32,15 @@
 | how long does local seo take to work | 90 (verified, Semrush `ca`) | 17 (verified) | Info | Blog (published) |
 | how much does local seo cost | 20 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
 | how to get more google reviews for my business | 20 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
+| web design brampton | Unverified — not yet checked | Unverified | Local | City page (queued) |
+| web design vaughan | Unverified — not yet checked | Unverified | Local | City page (queued) |
+| web design burlington | Unverified — not yet checked | Unverified | Local | City page (queued) |
 
 ## Local city pages (build after the core pages rank)
 One page per city, each with unique content (local examples, local reviews, local trades), not a copy with the city swapped:
 Ajax (published, `/web-design-ajax/`), Pickering, Whitby, Oshawa, Clarington, Scarborough, Markham, Richmond Hill, Mississauga, Oakville.
+
+**Added 2026-11-22:** Brampton, Vaughan and Burlington were missing from this queue and from `src/_data/site.json`'s `cities` list despite being some of the largest cities in their regions (Brampton is Peel Region's biggest city, bigger than Mississauga; Vaughan is a large York Region city; Burlington is Halton's second city after Oakville). Added to both files as queued, unverified-keyword city pages — not yet built, no page or stub exists for any of the three yet.
 
 URL format: `/web-design-<city>/`. The Ajax page was built from the homepage template (`src/index.njk`), by request, rather than the `/web-design/` service-page template — pick whichever base fits the next city when you build one.
 

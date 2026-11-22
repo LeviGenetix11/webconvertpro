@@ -9,7 +9,7 @@
   "city": "Ajax",
   "region": "ON",
   "areas": ["Durham Region", "Toronto", "York Region", "Peel Region", "Halton Region"],
-  "cities": ["Ajax", "Pickering", "Whitby", "Oshawa", "Scarborough", "Markham", "Richmond Hill", "Mississauga", "Oakville"],
+  "cities": ["Ajax", "Pickering", "Whitby", "Oshawa", "Scarborough", "Markham", "Richmond Hill", "Mississauga", "Brampton", "Oakville", "Vaughan", "Burlington"],
   "analyticsId": "",
   "nav": [
     { "href": "/services/", "label": "Services" },
