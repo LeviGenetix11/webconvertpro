@@ -80,6 +80,9 @@ p { margin: 0 0 1em; }
 .nav .btn { padding: 12px 20px; font-size: .95rem; }
 .header-right { display: flex; align-items: center; gap: 10px; }
 .header-call { display: none; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 999px; background: var(--mist); color: var(--ink); flex-shrink: 0; }
+.site-header--minimal .header-call { display: flex; }
+.plain-list { margin: 0; padding-left: 1.2em; color: var(--ink-soft); }
+.plain-list li { margin-bottom: 8px; }
 .header-call svg { width: 18px; height: 18px; }
 .nav-toggle { display: none; background: none; border: 0; padding: 10px; margin-right: -10px; cursor: pointer; color: var(--ink); }
 .nav-toggle svg { width: 26px; height: 26px; }

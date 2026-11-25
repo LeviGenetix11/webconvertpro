@@ -90,6 +90,12 @@ Every primary keyword that already has a page. The `/blog` and `/service` skills
 - **Secondaries:** website build timeline, how fast can a website be built, website development timeline, fast website vs custom website timeline
 - **Source:** verified via Semrush `phrase_these` (database `ca`): volume 20/mo, CPC $2.72. Checked alongside "how to get more roofing leads" (20/mo), "how often should i post on social media" (20/mo), and several zero-volume candidates ("how to get more contractor leads", "how to market a contracting business", "diy website vs hiring a designer", "website vs google business profile") that were not used.
 
+### free website preview GTA contractors
+- **Page:** `/preview/`
+- **Type:** Landing page (social-traffic conversion page, not a blog/service-hub page) — minimal nav, single CTA
+- **Secondaries:** free homepage preview, home improvement website preview, free website preview Ontario
+- **Source:** not verified via Semrush — this page is built for paid/organic social traffic (Instagram, Facebook, TikTok, LinkedIn), not primarily for organic search ranking, so the title/keyword is descriptive rather than volume-driven. Topically distinct from the homepage's existing "free preview" offer, which is a secondary CTA there rather than the whole page's purpose.
+
 ---
 
 ## How to add an entry
