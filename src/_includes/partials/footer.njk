@@ -40,4 +40,4 @@
     </div>
   </div>
 </footer>
-{% if site.calendarUrl %}<a class="btn btn--primary mobile-cta" href="{{ site.calendarUrl }}">Book a free audit</a>{% else %}<a class="btn btn--primary mobile-cta" href="/contact/">Get my free preview</a>{% endif %}
+{%- if mobileCtaHref %}<a class="btn btn--primary mobile-cta" href="{{ mobileCtaHref }}">{{ mobileCtaLabel or "Get my free preview" }}</a>{% elif site.calendarUrl %}<a class="btn btn--primary mobile-cta" href="{{ site.calendarUrl }}">Book a free audit</a>{% else %}<a class="btn btn--primary mobile-cta" href="/contact/">Get my free preview</a>{% endif %}

@@ -4,6 +4,8 @@ title: "Free Website Preview for GTA Contractors | WebConvertPro"
 description: "Get a free working homepage preview within one business day. See it before you pay. No obligation. For GTA home improvement businesses."
 permalink: "/preview/"
 minimalHeader: true
+mobileCtaHref: "#preview-form"
+mobileCtaLabel: "Get my free preview"
 ---
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Free homepage preview", "serviceType": "Website design preview", "description": "Get a free working homepage preview within one business day. See it before you pay. No obligation.", "url": "{{ site.url }}/preview/", "provider": {"@id": "{{ site.url }}/#business"}, "areaServed": [{"@type": "AdministrativeArea", "name": "Durham Region"}, {"@type": "AdministrativeArea", "name": "Toronto"}, {"@type": "AdministrativeArea", "name": "York Region"}, {"@type": "AdministrativeArea", "name": "Peel Region"}, {"@type": "AdministrativeArea", "name": "Halton Region"}], "offers": {"@type": "Offer", "priceCurrency": "CAD", "price": "0"}}</script>
@@ -54,7 +56,8 @@ minimalHeader: true
   <div class="wrap">
     <div class="section-head"><h2 id="concept-h">What a preview looks like</h2><p class="lede">An example only, built for a fictional business so you can see the format. Yours uses your real business.</p></div>
     <figure>
-      <div class="ba" style="--pos:50%">
+      <div class="ba" id="concept-ba" style="--pos:50%">
+        <button type="button" class="ba-close" id="ba-close" aria-label="Close enlarged view">✕</button>
         <div class="ba-chrome"><i></i><i></i><i></i><span>Concept example — not a real client site</span></div>
         <div class="ba-pane ba-before" aria-hidden="true">
           <span class="ba-tag">Before (concept example)</span>
@@ -96,7 +99,9 @@ minimalHeader: true
       </div>
       <figcaption class="ba-caption">Drag to compare. Concept example for a fictional contractor; your preview uses your real business.</figcaption>
     </figure>
+    <div class="btn-row"><button type="button" class="btn btn--ghost" id="ba-enlarge" aria-expanded="false">View larger</button></div>
   </div>
+  <div class="ba-backdrop" id="ba-backdrop" hidden></div>
 </section>
 
 <section class="section section--mist" aria-labelledby="faq-h">
@@ -188,6 +193,11 @@ minimalHeader: true
     gtag("event", name, { utm_source: stored.utm_source || "" });
   }
 
+  function trackMeta(name, params) {
+    if (typeof fbq !== "function") return;
+    fbq("track", name, params || {});
+  }
+
   var cta = document.getElementById("preview-cta");
   if (cta) cta.addEventListener("click", function () { track("preview_cta_click"); });
 
@@ -199,5 +209,37 @@ minimalHeader: true
     });
     form.addEventListener("submit", function () { track("preview_form_submit"); });
   }
+
+  trackMeta("ViewContent", { content_name: "Free homepage preview" });
+
+  var headerCall = document.getElementById("header-call");
+  if (headerCall) headerCall.addEventListener("click", function () { trackMeta("Contact"); });
+
+  var baWidget = document.getElementById("concept-ba");
+  var baBtn = document.getElementById("ba-enlarge");
+  var baClose = document.getElementById("ba-close");
+  var baBackdrop = document.getElementById("ba-backdrop");
+
+  function closeBa() {
+    if (!baWidget) return;
+    baWidget.classList.remove("is-enlarged");
+    if (baBackdrop) baBackdrop.hidden = true;
+    document.body.classList.remove("ba-lock");
+    if (baBtn) baBtn.setAttribute("aria-expanded", "false");
+  }
+
+  if (baBtn && baWidget) {
+    baBtn.addEventListener("click", function () {
+      baWidget.classList.add("is-enlarged");
+      if (baBackdrop) baBackdrop.hidden = false;
+      document.body.classList.add("ba-lock");
+      baBtn.setAttribute("aria-expanded", "true");
+    });
+  }
+  if (baClose) baClose.addEventListener("click", closeBa);
+  if (baBackdrop) baBackdrop.addEventListener("click", closeBa);
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeBa();
+  });
 })();
 </script>

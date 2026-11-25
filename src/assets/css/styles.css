@@ -124,6 +124,11 @@ p { margin: 0 0 1em; }
 .ba-range { position: absolute; inset: 34px 0 0 0; width: 100%; height: calc(100% - 34px); opacity: 0; cursor: ew-resize; z-index: 6; margin: 0; }
 .ba-range:focus-visible + .ba-handle::after { outline: 3px solid var(--ink); outline-offset: 3px; }
 .ba-caption { margin-top: 14px; font-size: .9rem; color: var(--ink-soft); }
+.ba-close { display: none; position: absolute; top: 44px; right: 10px; width: 32px; height: 32px; border-radius: 50%; border: 0; background: var(--ink); color: #fff; font-size: 14px; line-height: 1; cursor: pointer; z-index: 7; }
+.ba-backdrop { position: fixed; inset: 0; background: rgba(16,33,63,.72); z-index: 60; }
+.ba.is-enlarged { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(92vw, 900px); max-height: 90vh; z-index: 61; }
+.ba.is-enlarged .ba-close { display: block; }
+body.ba-lock { overflow: hidden; }
 
 /* Mock: dated site */
 .mock-old { height: 100%; background: #f2efe6; font-family: "Times New Roman", Times, serif; color: #333; font-size: 12px; }

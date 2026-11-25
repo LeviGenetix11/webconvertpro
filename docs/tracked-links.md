@@ -39,4 +39,6 @@ Example: `...&utm_content=story-2026-11-25-roofing-tip`
 
 Every `/preview/` form submission (visible in Netlify → Forms → `preview-request`) includes hidden `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `referrer` and `landing_page` fields with whatever was in the URL when that visitor first landed, even if they didn't submit right away (it's cached in `sessionStorage` for that browser session). If GA4 is connected (`analyticsId` in `src/_data/site.json` — currently blank), the same `utm_source` also rides along on the `preview_cta_click`, `preview_form_start` and `preview_form_submit` events.
 
+**Meta Pixel** is wired the same way: set `metaPixelId` in `src/_data/site.json` (currently blank, so the pixel is fully inactive site-wide) and it starts firing automatically — `PageView` on every page, `ViewContent` on `/preview/` load, `Contact` when the header phone link is clicked, and `Lead` on `/preview/thanks/` load (i.e. only after a successful form submission). `InitiateCheckout` and `Purchase` are intentionally not wired up — there's no real checkout/purchase flow on this site, and a free preview request isn't a purchase.
+
 // TODO(Levi): pick real campaign names once you know your actual posting schedule/theme — "organic-30day" above is a placeholder, not something I invented as your real campaign.
