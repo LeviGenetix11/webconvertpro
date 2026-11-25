@@ -35,6 +35,8 @@
 | web design brampton | Unverified — not yet checked | Unverified | Local | City page (queued) |
 | web design vaughan | Unverified — not yet checked | Unverified | Local | City page (queued) |
 | web design burlington | Unverified — not yet checked | Unverified | Local | City page (queued) |
+| how to choose a web designer | 50 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
+| how long does it take to build a website | 20 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
 
 ## Local city pages (build after the core pages rank)
 One page per city, each with unique content (local examples, local reviews, local trades), not a copy with the city swapped:

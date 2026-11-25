@@ -274,5 +274,65 @@
       "pexelsUrl": "https://www.pexels.com/photo/five-yellow-stars-on-blue-and-pink-background-9821386/",
       "publicPath": "/assets/img/blog/how-to-get-more-google-reviews/five-star-reviews.jpg"
     }
+  },
+  "how-to-choose-a-web-designer": {
+    "hero": {
+      "alt": "Business owner comparing web design options on a laptop",
+      "query": "business owner comparing laptop options",
+      "photographer": "kaboompics",
+      "photographerUrl": "https://www.pexels.com/@karola-g",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-in-white-long-sleeves-carrying-a-silver-laptop-5717888/",
+      "publicPath": "/assets/img/blog/how-to-choose-a-web-designer/hero.jpg"
+    },
+    "comparing-options": {
+      "alt": "Business owner comparing web design options on a laptop",
+      "query": "person comparing options laptop desk",
+      "photographer": "kaboompics",
+      "photographerUrl": "https://www.pexels.com/@karola-g",
+      "pexelsUrl": "https://www.pexels.com/photo/sticky-notes-and-office-supplies-on-the-desk-5882647/",
+      "publicPath": "/assets/img/blog/how-to-choose-a-web-designer/comparing-options.jpg"
+    },
+    "launch-timeline": {
+      "alt": "Calendar showing a website launch date",
+      "query": "calendar desk planning date",
+      "photographer": "Edge Training",
+      "photographerUrl": "https://www.pexels.com/@edge-training-521332405",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-marking-a-day-in-a-calendar-17668838/",
+      "publicPath": "/assets/img/blog/how-to-choose-a-web-designer/launch-timeline.jpg"
+    },
+    "trade-specific-site": {
+      "alt": "Contractor reviewing a quote request on a tablet",
+      "query": "contractor tablet quote job site",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-white-helmet-while-holding-a-tablet-inside-the-house-6474469/",
+      "publicPath": "/assets/img/blog/how-to-choose-a-web-designer/trade-specific-site.jpg"
+    }
+  },
+  "how-long-does-it-take-to-build-a-website": {
+    "hero": {
+      "alt": "Clock and calendar representing a website build timeline",
+      "query": "clock calendar desk planning",
+      "photographer": "Michaela",
+      "photographerUrl": "https://www.pexels.com/@michaela-87369",
+      "pexelsUrl": "https://www.pexels.com/photo/flat-lay-photography-of-unfold-book-beside-macbook-295826/",
+      "publicPath": "/assets/img/blog/how-long-does-it-take-to-build-a-website/hero.jpg"
+    },
+    "clock-calendar": {
+      "alt": "Clock and calendar representing a website build timeline",
+      "query": "clock calendar desk",
+      "photographer": "Arjunn. la",
+      "photographerUrl": "https://www.pexels.com/@arjunn-la-1561931",
+      "pexelsUrl": "https://www.pexels.com/photo/laptop-and-eelctronics-on-desk-19055620/",
+      "publicPath": "/assets/img/blog/how-long-does-it-take-to-build-a-website/clock-calendar.jpg"
+    },
+    "gathering-files": {
+      "alt": "Small business owner gathering photos and files for a website",
+      "query": "small business owner photos files laptop",
+      "photographer": "Pavel Danilyuk",
+      "photographerUrl": "https://www.pexels.com/@pavel-danilyuk",
+      "pexelsUrl": "https://www.pexels.com/photo/a-boss-holding-a-brown-folder-7654452/",
+      "publicPath": "/assets/img/blog/how-long-does-it-take-to-build-a-website/gathering-files.jpg"
+    }
   }
 }

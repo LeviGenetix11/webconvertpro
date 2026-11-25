@@ -84,6 +84,17 @@ const posts = {
     "qr-code-scan": { query: "qr code scan smartphone", alt: "QR code being scanned with a smartphone" },
     "five-star-reviews": { query: "five star rating review", alt: "Five-star reviews displayed for a local business" },
   },
+  "how-to-choose-a-web-designer": {
+    hero: { query: "business owner comparing laptop options", alt: "Business owner comparing web design options on a laptop" },
+    "comparing-options": { query: "person comparing options laptop desk", alt: "Business owner comparing web design options on a laptop" },
+    "launch-timeline": { query: "calendar desk planning date", alt: "Calendar showing a website launch date" },
+    "trade-specific-site": { query: "contractor tablet quote job site", alt: "Contractor reviewing a quote request on a tablet" },
+  },
+  "how-long-does-it-take-to-build-a-website": {
+    hero: { query: "clock calendar desk planning", alt: "Clock and calendar representing a website build timeline" },
+    "clock-calendar": { query: "clock calendar desk", alt: "Clock and calendar representing a website build timeline" },
+    "gathering-files": { query: "small business owner photos files laptop", alt: "Small business owner gathering photos and files for a website" },
+  },
 };
 
 async function searchPexels(query, apiKey) {

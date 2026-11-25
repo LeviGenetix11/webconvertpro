@@ -78,6 +78,18 @@ Every primary keyword that already has a page. The `/blog` and `/service` skills
 - **Secondaries:** get google reviews, google review link, ask customers for reviews, google business profile reviews
 - **Source:** verified via Semrush `phrase_these` (database `ca`): volume 20/mo, CPC $9.28, competition 0.77. Not yet in `keyword-map.md`'s pool — added below. Note: the pool's existing "website not generating leads what to do" (est. 400/mo) was checked and returned no tracked volume in Semrush's `ca` database — flagging that estimate as likely wrong rather than picking it.
 
+### how to choose a web designer
+- **Page:** `/blog/how-to-choose-a-web-designer/`
+- **Type:** Blog post
+- **Secondaries:** web design agency checklist, questions to ask a web designer, how to pick a website designer, web designer vs agency
+- **Source:** verified via Semrush `phrase_these` (database `ca`): volume 50/mo (highest of the batch checked).
+
+### how long does it take to build a website
+- **Page:** `/blog/how-long-does-it-take-to-build-a-website/`
+- **Type:** Blog post
+- **Secondaries:** website build timeline, how fast can a website be built, website development timeline, fast website vs custom website timeline
+- **Source:** verified via Semrush `phrase_these` (database `ca`): volume 20/mo, CPC $2.72. Checked alongside "how to get more roofing leads" (20/mo), "how often should i post on social media" (20/mo), and several zero-volume candidates ("how to get more contractor leads", "how to market a contracting business", "diy website vs hiring a designer", "website vs google business profile") that were not used.
+
 ---
 
 ## How to add an entry
