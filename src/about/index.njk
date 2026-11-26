@@ -5,7 +5,7 @@ description: "Meet Levi Lindsay, founder of Web Convert Pro. Web design and loca
 permalink: "/about/"
 nav: "/about/"
 video:
-  thumbnail: /assets/img/about/founder-placeholder.svg
+  thumbnail: /assets/img/about/founder-video-thumbnail.svg
   title: "Meet Levi Lindsay, Founder of Web Convert Pro"
   description: "Levi Lindsay, founder of Web Convert Pro, introduces how the company works with home services businesses in the GTA."
   contentUrl: /assets/video/founder-intro.mp4
@@ -38,7 +38,7 @@ video:
   <div class="wrap">
     <h2 id="founder-h">Meet the founder</h2>
     <h3>Levi Lindsay — founder of Web Convert Pro</h3>
-    {#- TODO(Levi): /assets/img/about/founder-placeholder.svg is a placeholder silhouette, used below as both the video poster and its thumbnail. Swap it for a real photo or an actual video still frame (same file name, or update the paths in this page's front matter and the <video poster> below). #}
+    {#- TODO(Levi): /assets/img/about/founder-video-thumbnail.svg is a branded placeholder (gradient + play button + your name), not a real still frame. Swap it for an actual frame from the video once you have one — update `video.thumbnail` in this page's front matter. #}
     <div class="founder-video" id="founder-video">
       <video controls preload="metadata" poster="{{ video.thumbnail }}" aria-label="Introduction video from Levi Lindsay, founder of Web Convert Pro">
         <source src="{{ video.contentUrl }}" type="video/mp4">
