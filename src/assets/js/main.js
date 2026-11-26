@@ -59,3 +59,17 @@
 
 // Footer year
 (function () { var y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear(); })();
+
+// Scroll reveal — progressive enhancement only; elements with .reveal stay fully visible if this never runs
+(function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (!('IntersectionObserver' in window)) return;
+  var targets = document.querySelectorAll('.reveal');
+  if (!targets.length) return;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) { entry.target.classList.add('is-visible'); io.unobserve(entry.target); }
+    });
+  }, { threshold: .15 });
+  targets.forEach(function (el) { el.classList.add('reveal-ready'); io.observe(el); });
+})();
