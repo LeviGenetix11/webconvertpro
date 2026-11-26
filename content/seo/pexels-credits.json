@@ -334,5 +334,31 @@
       "pexelsUrl": "https://www.pexels.com/photo/a-boss-holding-a-brown-folder-7654452/",
       "publicPath": "/assets/img/blog/how-long-does-it-take-to-build-a-website/gathering-files.jpg"
     }
+  },
+  "how-often-should-i-post-on-social-media": {
+    "hero": {
+      "alt": "Monthly social media content calendar planned on a phone",
+      "query": "social media content calendar phone",
+      "photographer": "Amar  Preciado",
+      "photographerUrl": "https://www.pexels.com/@amar",
+      "pexelsUrl": "https://www.pexels.com/photo/cellphone-on-a-phone-holder-13709182/",
+      "publicPath": "/assets/img/blog/how-often-should-i-post-on-social-media/hero.jpg"
+    },
+    "posting-consistency": {
+      "alt": "Scrolling a business's social media feed on a smartphone",
+      "query": "smartphone social media feed scrolling",
+      "photographer": "Lisa Fotios",
+      "photographerUrl": "https://www.pexels.com/@fotios-photos",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-midnight-black-samsung-galaxy-s8-turn-on-near-macbook-pro-1092671/",
+      "publicPath": "/assets/img/blog/how-often-should-i-post-on-social-media/posting-consistency.jpg"
+    },
+    "batch-content-day": {
+      "alt": "Contractor taking a photo on a job site for social media",
+      "query": "contractor taking photo job site phone",
+      "photographer": "CK Seng",
+      "photographerUrl": "https://www.pexels.com/@keat007",
+      "pexelsUrl": "https://www.pexels.com/photo/construction-worker-at-urban-project-site-31387781/",
+      "publicPath": "/assets/img/blog/how-often-should-i-post-on-social-media/batch-content-day.jpg"
+    }
   }
 }

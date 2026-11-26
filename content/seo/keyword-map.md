@@ -13,6 +13,7 @@
 | `/blog/how-much-does-a-business-website-cost-ontario/` | how much does a business website cost | website cost Ontario, small business website price |
 | `/blog/what-to-put-on-a-contractor-website-homepage/` | contractor website design | contractor website examples, trades website |
 | `/blog/how-to-improve-website-conversion-rate/` | how to improve website conversion rate | website not generating leads what to do, how to increase website leads, website conversion rate benchmark |
+| `/blog/how-often-should-i-post-on-social-media/` | how often should i post on social media | social media posting frequency for small business, how many times a week should a business post on social media, social media content schedule for contractors |
 
 ## Keyword pool (from project research, unverified)
 | Keyword | Est. volume | Difficulty | Intent | Plan |
@@ -37,6 +38,7 @@
 | web design burlington | Unverified — not yet checked | Unverified | Local | City page (queued) |
 | how to choose a web designer | 50 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
 | how long does it take to build a website | 20 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
+| how often should i post on social media | 20 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
 
 ## Local city pages (build after the core pages rank)
 One page per city, each with unique content (local examples, local reviews, local trades), not a copy with the city swapped:

@@ -95,6 +95,11 @@ const posts = {
     "clock-calendar": { query: "clock calendar desk", alt: "Clock and calendar representing a website build timeline" },
     "gathering-files": { query: "small business owner photos files laptop", alt: "Small business owner gathering photos and files for a website" },
   },
+  "how-often-should-i-post-on-social-media": {
+    hero: { query: "social media content calendar phone", alt: "Monthly social media content calendar planned on a phone" },
+    "posting-consistency": { query: "smartphone social media feed scrolling", alt: "Scrolling a business's social media feed on a smartphone" },
+    "batch-content-day": { query: "contractor taking photo job site phone", alt: "Contractor taking a photo on a job site for social media" },
+  },
 };
 
 async function searchPexels(query, apiKey) {

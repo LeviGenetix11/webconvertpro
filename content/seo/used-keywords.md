@@ -96,6 +96,12 @@ Every primary keyword that already has a page. The `/blog` and `/service` skills
 - **Secondaries:** free homepage preview, home improvement website preview, free website preview Ontario
 - **Source:** not verified via Semrush — this page is built for paid/organic social traffic (Instagram, Facebook, TikTok, LinkedIn), not primarily for organic search ranking, so the title/keyword is descriptive rather than volume-driven. Topically distinct from the homepage's existing "free preview" offer, which is a secondary CTA there rather than the whole page's purpose.
 
+### how often should i post on social media
+- **Page:** `/blog/how-often-should-i-post-on-social-media/`
+- **Type:** Blog post
+- **Secondaries:** social media posting frequency for small business, how many times a week should a business post on social media, social media content schedule for contractors, social media tips for home service businesses
+- **Source:** verified via Semrush `phrase_these` (database `ca`) in an earlier session: volume 20/mo. Checked alongside the batch for "how long does it take to build a website" but not used until now.
+
 ---
 
 ## How to add an entry
