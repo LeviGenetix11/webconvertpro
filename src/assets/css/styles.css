@@ -90,7 +90,6 @@ p { margin: 0 0 1em; }
 
 /* Header */
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(251,252,254,.92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); transition: background var(--ease), border-color var(--ease); }
-.logo--light { display: none; }
 .site-header--transparent:not(.is-scrolled) { background: var(--ink-deep); border-bottom-color: transparent; backdrop-filter: none; }
 .site-header--transparent:not(.is-scrolled) .logo--dark { display: none; }
 .site-header--transparent:not(.is-scrolled) .logo--light { display: flex; }
@@ -101,6 +100,7 @@ p { margin: 0 0 1em; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 72px; gap: 24px; }
 .logo { display: flex; align-items: center; text-decoration: none; }
 .logo img { height: 34px; width: auto; display: block; }
+.logo--light { display: none; }
 .nav { display: flex; align-items: center; gap: 24px; }
 .nav a:not(.btn) { color: var(--ink); text-decoration: none; font-weight: 500; font-size: .98rem; white-space: nowrap; }
 .nav .btn { white-space: nowrap; }
@@ -544,7 +544,7 @@ body.ba-lock { overflow: hidden; }
 .bento-lg .preview-frame .mock-new { position: absolute; inset: 0; }
 @media (max-width: 960px) { .bento-grid { grid-template-columns: 1fr 1fr; } .bento-lg { grid-column: 1 / -1; grid-template-columns: 1fr; } }
 @media (max-width: 640px) { .bento-grid { grid-template-columns: 1fr; } .bento-lg { padding: var(--space-4); } }
-.tag-new { display: inline-block; font-size: .68rem; font-weight: 700; letter-spacing: .02em; background: var(--green); color: var(--ink-deep); border-radius: 6px; padding: 3px 9px; margin-left: 8px; vertical-align: middle; }
+.tag-new { display: inline-block; font-size: .68rem; font-weight: 700; letter-spacing: .02em; background: var(--green); color: var(--ink-deep); border-radius: 6px; padding: 3px 9px; margin-left: 10px; vertical-align: 4px; white-space: nowrap; }
 
 /* Portfolio — concept examples only, labeled, home services niche */
 .portfolio-tag { flex-shrink: 0; font-size: .72rem; font-weight: 700; letter-spacing: .01em; background: var(--mint); color: var(--mint-ink); border-radius: 999px; padding: 5px 11px; white-space: nowrap; }

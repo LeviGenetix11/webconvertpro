@@ -2,6 +2,7 @@ node_modules/
 _site/
 .DS_Store
 .env
+scripts/screenshots/
 # Lead lists contain personal data. Keep them out of Git.
 content/outreach/lead-lists/*
 !content/outreach/lead-lists/.gitkeep
