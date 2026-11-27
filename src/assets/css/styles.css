@@ -145,6 +145,10 @@ p { margin: 0 0 1em; }
 .ba-range { position: absolute; inset: 34px 0 0 0; width: 100%; height: calc(100% - 34px); opacity: 0; cursor: ew-resize; z-index: 6; margin: 0; }
 .ba-range:focus-visible + .ba-handle::after { outline: 3px solid var(--ink); outline-offset: 3px; }
 .ba-caption { margin-top: 14px; font-size: .9rem; color: var(--ink-soft); }
+.ba-pane img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hero-visual { border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-lg); }
+.hero-visual img { width: 100%; height: auto; display: block; }
+.hero-visual figcaption { margin-top: 14px; font-size: .85rem; color: #8B97AC; }
 .ba-close { display: none; position: absolute; top: 44px; right: 10px; width: 32px; height: 32px; border-radius: 50%; border: 0; background: var(--ink); color: #fff; font-size: 14px; line-height: 1; cursor: pointer; z-index: 7; }
 .ba-backdrop { position: fixed; inset: 0; background: rgba(16,33,63,.72); z-index: 60; }
 .ba.is-enlarged { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(92vw, 900px); max-height: 90vh; z-index: 61; }
@@ -518,6 +522,7 @@ body.ba-lock { overflow: hidden; }
 .portfolio-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
 .portfolio-card .frame { aspect-ratio: 4 / 3.1; position: relative; }
 .portfolio-card .mock-new { position: absolute; inset: 0; }
+.portfolio-card .frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .portfolio-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 18px 20px; }
 .portfolio-meta h3 { font-size: 1.05rem; }
 .portfolio-tag { flex-shrink: 0; font-size: .72rem; font-weight: 700; letter-spacing: .01em; background: var(--mint); color: var(--mint-ink); border-radius: 999px; padding: 5px 11px; white-space: nowrap; }
@@ -550,6 +555,7 @@ body.ba-lock { overflow: hidden; }
 .bhc-swatches span { width: 16px; height: 16px; border-radius: 4px; }
 .bhc-device { width: 56px; height: 36px; border-radius: 4px; border: 2px solid #3A4260; display: flex; align-items: center; justify-content: center; }
 .bhc-device i { width: 60%; height: 50%; border-radius: 2px; }
+.brand-hero-concept--photo img { width: 100%; height: auto; border-radius: var(--radius-lg); display: block; }
 
 /* Package comparison table */
 .compare-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-lg); }
