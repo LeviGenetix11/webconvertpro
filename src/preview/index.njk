@@ -127,6 +127,20 @@ mobileCtaLabel: "Get my free preview"
         <li>No payment details needed to see it</li>
       </ul>
     </div>
+    {%- if site.formspreeId %}
+    <form class="form" id="preview-form" name="preview-request" method="POST" action="https://formspree.io/f/{{ site.formspreeId }}">
+      <input type="hidden" name="_next" value="{{ site.url }}/preview/thanks/">
+      <input type="hidden" name="_subject" value="New free-preview request">
+      <input type="hidden" name="service" value="free-preview">
+      <input type="hidden" name="utm_source">
+      <input type="hidden" name="utm_medium">
+      <input type="hidden" name="utm_campaign">
+      <input type="hidden" name="utm_content">
+      <input type="hidden" name="referrer">
+      <input type="hidden" name="landing_page">
+      <p class="fine full">Fields marked <span class="req" aria-hidden="true">*</span> are required.</p>
+      <p class="hidden"><label>Leave this empty <input name="_gotcha"></label></p>
+    {%- else %}
     <form class="form" id="preview-form" name="preview-request" method="POST" action="/preview/thanks/" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="preview-request">
       <input type="hidden" name="service" value="free-preview">
@@ -138,6 +152,7 @@ mobileCtaLabel: "Get my free preview"
       <input type="hidden" name="landing_page">
       <p class="fine full">Fields marked <span class="req" aria-hidden="true">*</span> are required.</p>
       <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+    {%- endif %}
       <div><label for="p-name">Your name <span class="req" aria-hidden="true">*</span></label><input id="p-name" name="name" autocomplete="name" required aria-required="true"></div>
       <div><label for="p-business">Business name <span class="req" aria-hidden="true">*</span></label><input id="p-business" name="business" autocomplete="organization" required aria-required="true"></div>
       <div><label for="p-trade">What you do <span class="req" aria-hidden="true">*</span></label><input id="p-trade" name="trade" placeholder="e.g. roofing, HVAC, renovations" required aria-required="true"></div>
