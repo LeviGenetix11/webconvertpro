@@ -41,7 +41,6 @@ webconvertpro/
 ├── docs/                     Deploy and how-to guides
 ├── eleventy.config.js        Build settings
 ├── vercel.json               Vercel settings, redirects, security headers, cache rules
-├── netlify.toml              Unused rollback reference (site was on Netlify before Vercel)
 └── package.json
 ```
 
@@ -63,7 +62,7 @@ webconvertpro/
 
 ## Deploy
 
-See `docs/deploy-vercel.md`. In short: push this folder to GitHub, connect the repo to Vercel, and every push deploys automatically. (`docs/deploy-netlify.md` is kept as a rollback reference from before the Vercel migration.)
+See `docs/deploy-vercel.md`. In short: push this folder to GitHub, connect the repo to Vercel, and every push deploys automatically.
 
 ## SEO
 

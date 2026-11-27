@@ -1,6 +1,6 @@
 # Deploy to Vercel
 
-Netlify stopped deploying because its usage credits ran out. This gets the same site live on Vercel instead. `netlify.toml` is left in place untouched — nothing stops you from going back to Netlify once it resets or is upgraded.
+Netlify stopped deploying because its usage credits ran out. This gets the same site live on Vercel instead. `netlify.toml` has since been removed (2026-11-27) now that the Vercel setup is confirmed working — see `docs/deploy-netlify.md` if you ever need to reconstruct it to go back to Netlify.
 
 ## 1. Connect the repo
 
