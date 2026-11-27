@@ -1,0 +1,8 @@
+[
+  { "name": "Fictional Roofing Co.", "industry": "Roofing", "initial": "R", "colors": ["#101D35", "#E8832B"], "description": "Bold, geometric mark built around a roofline motif." },
+  { "name": "Fictional Plumbing Co.", "industry": "Plumbing", "initial": "P", "colors": ["#1769D2", "#2FB8A6"], "description": "Clean, modern type with a water-drop inspired mark." },
+  { "name": "Fictional Renovation Studio", "industry": "Home renovations", "initial": "R", "colors": ["#3B4A66", "#D8C9AE"], "description": "Minimalist, architectural type for a premium renovation brand." },
+  { "name": "Fictional Landscaping Co.", "industry": "Landscaping", "initial": "L", "colors": ["#2F9E44", "#EDE6D6"], "description": "Nature-inspired identity in forest green and warm cream." },
+  { "name": "Fictional Electrical Co.", "industry": "Electrical", "initial": "E", "colors": ["#101D35", "#F2C14E"], "description": "Modern, industrial type with a geometric bolt-inspired mark." },
+  { "name": "Fictional HVAC Co.", "industry": "Heating & cooling", "initial": "H", "colors": ["#1A3C6E", "#C23B3B"], "description": "Clean, technical type suited to a heating and cooling brand." }
+]

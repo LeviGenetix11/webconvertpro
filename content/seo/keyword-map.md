@@ -10,6 +10,7 @@
 | `/web-design/` | small business web design | custom website design, website redesign services |
 | `/google-business-profile/` | google business profile management | local SEO services, google maps ranking |
 | `/social-media/` | social media content for small business | organic content creation, social media for contractors |
+| `/branding/` | logo design toronto | brand identity design, business branding services, construction company logo design |
 | `/blog/how-much-does-a-business-website-cost-ontario/` | how much does a business website cost | website cost Ontario, small business website price |
 | `/blog/what-to-put-on-a-contractor-website-homepage/` | contractor website design | contractor website examples, trades website |
 | `/blog/how-to-improve-website-conversion-rate/` | how to improve website conversion rate | website not generating leads what to do, how to increase website leads, website conversion rate benchmark |
@@ -39,6 +40,11 @@
 | how to choose a web designer | 50 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
 | how long does it take to build a website | 20 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
 | how often should i post on social media | 20 (verified, Semrush `ca`) | n/a | Info | Blog (published) |
+| logo design toronto | 260 (verified, Semrush `ca`) | 20 (verified) | Commercial | `/branding/` (published) |
+| brand identity design | 260 (verified, Semrush `ca`) | 35 (verified) | Commercial | Secondary on `/branding/` |
+| business branding services | 140 (verified, Semrush `ca`) | 36 (verified) | Commercial | Secondary on `/branding/` |
+| construction company logo design | 20 (verified, Semrush `ca`) | n/a | Commercial | Secondary on `/branding/` |
+| small business branding services gta | 0 (checked 2026-11-26 via Semrush: no tracked volume in `ca` database) | n/a | — | Not used as primary — see note below |
 
 ## Local city pages (build after the core pages rank)
 One page per city, each with unique content (local examples, local reviews, local trades), not a copy with the city swapped:

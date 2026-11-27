@@ -1,0 +1,19 @@
+{#- Branding package cards, driven by src/_data/brandingPlans.json so pricing/features live in one place. -#}
+<div class="plans">
+  {%- for p in brandingPlans %}
+  <div class="plan{% if p.tag == 'Most popular' %} plan--feature{% endif %}">
+    {%- if p.tag %}<span class="tag">{{ p.tag }}</span>{% endif %}
+    <h3>{{ p.name }}</h3>
+    <p class="plan-tagline"><strong>{{ p.tagline }}</strong></p>
+    <p>{{ p.description }}</p>
+    <div class="price">${{ p.price }} <small>{{ p.priceTerm }}</small></div>
+    <ul>
+      {%- for f in p.features %}
+      <li>{{ f }}</li>
+      {%- endfor %}
+    </ul>
+    <a class="btn {% if p.tag == 'Most popular' %}btn--primary{% else %}btn--ghost{% endif %}" href="/contact/?service=branding">{{ p.cta }}</a>
+  </div>
+  {%- endfor %}
+</div>
+<p class="plans-note">All packages are one-time purchases, quoted in CAD plus HST. Printing, manufacturing, embroidery and physical vehicle wrapping are not included — vehicle and workwear deliverables are digital design concepts.</p>

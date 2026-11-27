@@ -15,6 +15,7 @@
   "metaPixelId": "",
   "nav": [
     { "href": "/services/", "label": "Services" },
+    { "href": "/branding/", "label": "Branding" },
     { "href": "/locations/", "label": "Service Areas" },
     { "href": "/blog/", "label": "Blog" },
     { "href": "/#portfolio", "label": "Portfolio" },

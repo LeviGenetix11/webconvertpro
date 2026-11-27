@@ -102,6 +102,12 @@ Every primary keyword that already has a page. The `/blog` and `/service` skills
 - **Secondaries:** social media posting frequency for small business, how many times a week should a business post on social media, social media content schedule for contractors, social media tips for home service businesses
 - **Source:** verified via Semrush `phrase_these` (database `ca`) in an earlier session: volume 20/mo. Checked alongside the batch for "how long does it take to build a website" but not used until now.
 
+### logo design toronto
+- **Page:** `/branding/`
+- **Type:** Service page
+- **Secondaries:** brand identity design, business branding services, construction company logo design
+- **Source:** verified via Semrush `phrase_these` (database `ca`): volume 260/mo, difficulty 20. The originally-proposed primary "small business branding services GTA" was checked too and returned zero tracked volume — not used. "logo design durham region", "logo design ajax" and "contractor branding services" also returned zero volume and were dropped from the secondary cluster.
+
 ---
 
 ## How to add an entry

@@ -27,6 +27,17 @@ Three packages: **Starter**, **Growth** and **Growth Partner**. "Growth" and "cu
 
 Growth's $349/month **replaces** the standalone $79/mo hosting and $299/mo Local SEO add-ons for Growth and Growth Partner clients — don't charge both. Starter clients can still add any of the three add-ons separately below.
 
+## Branding (added 2026-11-26)
+A new standalone service, separate from the website tiers — not a recurring add-on. Three fixed-price, one-time packages, all digital deliverables (no printing, embroidery or physical vehicle wrapping). Source of truth for the page is `src/_data/brandingPlans.json`; keep this table in sync with it.
+
+| Package | Price | Includes |
+|---|---|---|
+| **Brand Starter** | **$199 one-time** | 2 initial logo concepts, 1 finalized primary logo, brand colour palette, font recommendations, 2 revision rounds, PNG/JPG/SVG files, basic usage guide. |
+| **Professional Branding** (badge: "Most popular") | **$399 one-time** | Everything in Brand Starter, plus 3 initial concepts, secondary logo and icon mark, business card design, social profile and cover graphics, email signature, professional brand guidelines, 3 revision rounds. |
+| **Complete Brand Identity** | **$699 one-time** | Everything in Professional Branding, plus expanded logo variations, 5 social templates, vehicle and workwear branding concepts (digital only), letterhead and document template, comprehensive brand guidelines, 4 revision rounds. |
+
+Available standalone or alongside any website package. No checkout/payment processing exists on this site (see dev note below) — customers submit the shared lead form (`?service=branding`) and are followed up with manually, same as every other service.
+
 ## Monthly add-ons (cancel with 30 days' notice) — for Starter clients only, labelled "starting at"
 | Add-on | Price |
 |---|---|

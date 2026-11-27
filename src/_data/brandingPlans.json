@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "brand-starter",
+    "name": "Brand Starter",
+    "tag": "",
+    "tagline": "A professional visual identity, from scratch.",
+    "price": 199,
+    "priceTerm": "one-time",
+    "description": "Everything a new business needs to establish a professional visual identity.",
+    "features": [
+      "Two initial logo concepts",
+      "One finalized primary logo",
+      "Brand colour palette",
+      "Font recommendations",
+      "Two revision rounds",
+      "Transparent PNG, high-res JPG and SVG vector files",
+      "Basic logo usage guide"
+    ],
+    "cta": "Choose Brand Starter"
+  },
+  {
+    "slug": "professional-branding",
+    "name": "Professional Branding",
+    "tag": "Most popular",
+    "tagline": "A complete, consistent brand foundation.",
+    "price": 399,
+    "priceTerm": "one-time",
+    "description": "A complete branding foundation for businesses looking to establish a consistent professional identity.",
+    "features": [
+      "Everything in Brand Starter",
+      "Three initial logo concepts",
+      "Primary logo, secondary logo and icon/logo mark",
+      "Business card design",
+      "Social media profile and cover graphics",
+      "Email signature design",
+      "Professional brand guidelines",
+      "Three revision rounds",
+      "Organized final brand asset package"
+    ],
+    "cta": "Choose Professional Branding"
+  },
+  {
+    "slug": "complete-brand-identity",
+    "name": "Complete Brand Identity",
+    "tag": "",
+    "tagline": "A full upgrade to your entire brand presence.",
+    "price": 699,
+    "priceTerm": "one-time",
+    "description": "A comprehensive visual identity for businesses looking to upgrade their entire brand presence.",
+    "features": [
+      "Everything in Professional Branding",
+      "Expanded logo variations",
+      "Five branded social media templates",
+      "Vehicle branding concept (digital design, not printing or installation)",
+      "Workwear branding concept (digital design, not embroidery or printing)",
+      "Letterhead and branded document template",
+      "Comprehensive brand guidelines",
+      "Four revision rounds",
+      "Organized final brand asset package"
+    ],
+    "cta": "Choose Complete Brand Identity"
+  }
+]
