@@ -76,7 +76,7 @@ p { margin: 0 0 1em; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 10px;
   font: 600 .95rem/1 var(--body);
-  min-height: 52px; padding: 0 28px; border-radius: 12px;
+  min-height: 52px; padding: 0 28px; border-radius: 10px;
   text-decoration: none; border: 1.5px solid transparent; cursor: pointer;
   transition: background var(--ease), color var(--ease), border-color var(--ease), transform var(--ease), box-shadow var(--ease);
 }
@@ -332,8 +332,8 @@ body.ba-lock { overflow: hidden; }
 .faq details { border-bottom: 1px solid var(--line); }
 .faq summary { list-style: none; cursor: pointer; padding: 24px 48px 24px 0; font: 700 1.15rem/1.35 var(--display); position: relative; }
 .faq summary::-webkit-details-marker { display: none; }
-.faq summary::after { content: ""; position: absolute; right: 8px; top: 50%; width: 12px; height: 12px; margin-top: -8px; border-right: 2.5px solid var(--cobalt); border-bottom: 2.5px solid var(--cobalt); transform: rotate(45deg); transition: transform .2s; }
-.faq details[open] summary::after { transform: rotate(-135deg); margin-top: -2px; }
+.faq summary::after { content: ""; position: absolute; right: 8px; top: 50%; width: 16px; height: 16px; margin-top: -10px; border-right: 2.5px solid var(--cobalt); border-bottom: 2.5px solid var(--cobalt); transform: rotate(45deg); transition: transform .2s; }
+.faq details[open] summary::after { transform: rotate(-135deg); margin-top: -4px; }
 .faq details > div { padding: 0 0 24px; color: var(--ink-soft); max-width: 44rem; }
 
 /* Lead form */
@@ -347,7 +347,7 @@ body.ba-lock { overflow: hidden; }
 .form label { display: block; font-weight: 600; font-size: .92rem; margin-bottom: 6px; }
 .form label span { font-weight: 400; color: var(--ink-soft); }
 .form .req { color: var(--cobalt); font-weight: 700; }
-.form input, .form select, .form textarea { width: 100%; font: 400 1rem var(--body); color: var(--ink); background: var(--paper); border: 1.5px solid var(--line); border-radius: var(--radius-sm); padding: 13px 14px; }
+.form input, .form select, .form textarea { width: 100%; font: 400 1rem var(--body); color: var(--ink); background: var(--paper); border: 1.5px solid var(--line); border-radius: var(--radius-sm); padding: 15px 14px; }
 .form textarea { min-height: 110px; resize: vertical; }
 .form input:focus, .form select:focus, .form textarea:focus { outline: none; border-color: var(--cobalt); box-shadow: 0 0 0 3px rgba(39,71,245,.18); }
 .form .btn { width: 100%; padding: 18px; font-size: 1.05rem; }
@@ -523,7 +523,7 @@ body.ba-lock { overflow: hidden; }
 .bento-card p { color: var(--ink-soft); margin-bottom: 0; }
 .bento-card .more { margin-top: var(--space-3); font-weight: 600; }
 .bento-icon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: var(--mist); color: var(--cobalt); margin-bottom: var(--space-3); flex-shrink: 0; }
-.bento-icon svg { width: 22px; height: 22px; }
+.bento-icon svg { width: 24px; height: 24px; }
 .bento-photo { aspect-ratio: 2 / 1; border-radius: var(--radius-sm); overflow: hidden; margin-bottom: var(--space-3); }
 .bento-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .illustrative { font-size: .75rem; color: var(--ink-soft); margin: 8px 0 0; }
