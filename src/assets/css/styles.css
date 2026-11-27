@@ -221,6 +221,12 @@ body.ba-lock { overflow: hidden; }
 .steps h3 { margin-bottom: 8px; }
 .steps .when { font-size: .85rem; font-weight: 600; color: var(--cobalt); margin-bottom: 8px; display: block; }
 .steps p { color: var(--ink-soft); font-size: .98rem; }
+.steps--deep { grid-template-columns: repeat(3, 1fr); }
+.steps--deep h3 { color: #fff; }
+.steps--deep p { color: #AEB9CC; }
+.steps--deep li::before { background: var(--green); color: var(--ink-deep); }
+.steps--deep li::after { background: rgba(255,255,255,.18); }
+@media (max-width: 900px) { .steps--deep { grid-template-columns: 1fr; } }
 @media (max-width: 900px) {
   .steps { grid-template-columns: 1fr; gap: 28px; }
   .steps li { padding: 0 0 0 64px; }
@@ -536,6 +542,14 @@ body.ba-lock { overflow: hidden; }
 .work-label { display: block; font-size: .78rem; color: #8591A8; margin-bottom: 14px; }
 .section--deep a.more, .section--ink a.more { color: var(--green); }
 .section--deep a.more:hover, .section--ink a.more:hover { color: #fff; }
+
+/* Industries we serve — real photos where available, plain text for the rest */
+.industry-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 28px; }
+.industry-tile { position: relative; border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 4 / 3; margin: 0; }
+.industry-tile img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.industry-tile figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 14px 16px; background: linear-gradient(0deg, rgba(8,15,30,.78), transparent); color: #fff; font-weight: 700; font-family: var(--display); }
+@media (max-width: 760px) { .industry-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .industry-grid { grid-template-columns: 1fr; } }
 @media (max-width: 760px) { .work-grid { grid-template-columns: 1fr; } .work-card:last-child:nth-child(odd) .work-frame { max-width: none; } }
 .bento-lg { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1.1fr; gap: var(--space-5); align-items: center; padding: var(--space-5); }
 .bento-lg h3 { font-size: clamp(1.5rem, 2.4vw, 2rem); }
