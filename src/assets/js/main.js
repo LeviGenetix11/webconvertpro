@@ -1,3 +1,12 @@
+// Transparent-over-hero header: solid once scrolled past the hero
+(function () {
+  var header = document.querySelector('.site-header--transparent');
+  if (!header) return;
+  function update() { header.classList.toggle('is-scrolled', window.scrollY > 40); }
+  update();
+  window.addEventListener('scroll', update, { passive: true });
+})();
+
 // Mobile navigation
 (function () {
   var toggle = document.querySelector('.nav-toggle');
