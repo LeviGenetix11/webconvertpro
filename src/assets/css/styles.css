@@ -508,6 +508,12 @@ body.ba-lock { overflow: hidden; }
 .bento-card .more { margin-top: var(--space-3); font-weight: 600; }
 .bento-icon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: var(--mist); color: var(--cobalt); margin-bottom: var(--space-3); flex-shrink: 0; }
 .bento-icon svg { width: 22px; height: 22px; }
+.bento-photo { aspect-ratio: 2 / 1; border-radius: var(--radius-sm); overflow: hidden; margin-bottom: var(--space-3); }
+.bento-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.bento-card .illustrative { font-size: .75rem; color: var(--ink-soft); margin: 8px 0 0; }
+.results-concept { max-width: 640px; margin: 48px auto 0; }
+.results-concept img { width: 100%; height: auto; border-radius: var(--radius-lg); display: block; box-shadow: var(--shadow-sm); }
+.results-concept figcaption { text-align: center; margin-top: 10px; font-size: .82rem; color: var(--ink-soft); font-style: italic; }
 .bento-lg { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1.1fr; gap: var(--space-5); align-items: center; padding: var(--space-5); }
 .bento-lg h3 { font-size: clamp(1.5rem, 2.4vw, 2rem); }
 .bento-lg .preview-frame { aspect-ratio: 16 / 11; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--line); position: relative; }
