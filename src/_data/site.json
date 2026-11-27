@@ -20,6 +20,14 @@
     { "href": "/locations/", "label": "Service Areas" },
     { "href": "/blog/", "label": "Blog" },
     { "href": "/#portfolio", "label": "Portfolio" },
+    { "href": "/resources/", "label": "Resources", "children": [
+      { "href": "/free-website-audit/", "label": "Free website audit" },
+      { "href": "/local-seo-audit/", "label": "Local visibility report" },
+      { "href": "/directory-scan/", "label": "Directory visibility scan" },
+      { "href": "/branding-preview/", "label": "Branding preview" },
+      { "href": "/resources/contractor-growth-playbook/", "label": "Digital Growth Playbook" },
+      { "href": "/tools/", "label": "Free business tools" }
+    ] },
     { "href": "/#pricing", "label": "Pricing" },
     { "href": "/about/", "label": "About" }
   ]

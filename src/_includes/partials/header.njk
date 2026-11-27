@@ -16,7 +16,18 @@
     {%- if not minimalHeader %}
     <nav class="nav" id="site-nav" aria-label="Main">
       {%- for item in site.nav %}
+      {%- if item.children %}
+      <div class="nav-item has-dropdown">
+        <a href="{{ item.href }}"{% if nav == item.href %} aria-current="page"{% endif %} aria-haspopup="true">{{ item.label }}</a>
+        <div class="dropdown">
+          {%- for child in item.children %}
+          <a href="{{ child.href }}">{{ child.label }}</a>
+          {%- endfor %}
+        </div>
+      </div>
+      {%- else %}
       <a href="{{ item.href }}"{% if nav == item.href %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {%- endif %}
       {%- endfor %}
       {% if site.calendarUrl %}<a class="btn btn--primary" href="{{ site.calendarUrl }}">Book a free audit</a>{% else %}<a class="btn btn--primary" href="/contact/">Get my free preview</a>{% endif %}
     </nav>

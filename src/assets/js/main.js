@@ -66,6 +66,59 @@
   if (q) city.value = q;
 })();
 
+// Reusable lead-form attribution + conversion tracking.
+// Any <form data-lead-form="some_name"> with hidden utm_source/utm_medium/utm_campaign/utm_content/utm_term/referrer/landing_page
+// fields gets them auto-filled from the URL (persisted in sessionStorage across the visit), plus start/submit events.
+// Any element with data-track-cta="some_name" fires a <name>_cta_click event on click.
+// No personally identifiable information (name, email, phone) is ever sent to gtag/fbq here.
+(function () {
+  var keys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+  var params = new URLSearchParams(window.location.search);
+  var stored = {};
+  try {
+    keys.forEach(function (k) {
+      var v = params.get(k);
+      if (v) sessionStorage.setItem(k, v);
+      stored[k] = sessionStorage.getItem(k) || "";
+    });
+    if (!sessionStorage.getItem("referrer") && document.referrer) sessionStorage.setItem("referrer", document.referrer);
+    if (!sessionStorage.getItem("landing_page")) sessionStorage.setItem("landing_page", window.location.pathname);
+    stored.referrer = sessionStorage.getItem("referrer") || "";
+    stored.landing_page = sessionStorage.getItem("landing_page") || "";
+  } catch (e) {
+    stored = { utm_source: "", utm_medium: "", utm_campaign: "", utm_content: "", utm_term: "", referrer: "", landing_page: "" };
+  }
+
+  function track(name, extra) {
+    if (typeof gtag !== "function") return;
+    var payload = { utm_source: stored.utm_source || "" };
+    for (var k in extra) payload[k] = extra[k];
+    gtag("event", name, payload);
+  }
+  function trackMeta(name, data) {
+    if (typeof fbq === "function") fbq("track", name, data || {});
+  }
+  window.wcpTrack = track;
+  window.wcpTrackMeta = trackMeta;
+
+  document.querySelectorAll("form[data-lead-form]").forEach(function (form) {
+    Object.keys(stored).forEach(function (k) {
+      var field = form.querySelector('[name="' + k + '"]');
+      if (field) field.value = stored[k];
+    });
+    var eventBase = form.getAttribute("data-lead-form");
+    var started = false;
+    form.addEventListener("focusin", function () {
+      if (!started) { started = true; track(eventBase + "_form_start"); }
+    });
+    form.addEventListener("submit", function () { track(eventBase + "_form_submit"); trackMeta("Lead"); });
+  });
+
+  document.querySelectorAll("[data-track-cta]").forEach(function (el) {
+    el.addEventListener("click", function () { track(el.getAttribute("data-track-cta") + "_cta_click"); });
+  });
+})();
+
 // Footer year
 (function () { var y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear(); })();
 

@@ -1,0 +1,117 @@
+---
+layout: layouts/base.njk
+title: "Business Directory Visibility Scan | WebConvertPro"
+description: "Find out where your business is missing, inconsistent or outdated across Google and other local directories. For GTA home improvement businesses."
+permalink: "/directory-scan/"
+minimalHeader: true
+mobileCtaHref: "#scan-form"
+mobileCtaLabel: "Check my listings"
+---
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Directory visibility scan", "serviceType": "Business directory and citation review", "description": "Find out where your business is missing, inconsistent or outdated across Google and other local directories.", "url": "{{ site.url }}/directory-scan/", "provider": {"@id": "{{ site.url }}/#business"}, "offers": {"@type": "Offer", "priceCurrency": "CAD", "price": "0"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"}, {"@type": "ListItem", "position": 2, "name": "Directory visibility scan", "item": "{{ site.url }}/directory-scan/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is this fully automated?", "acceptedAnswer": {"@type": "Answer", "text": "No, and we won't pretend it is. A person on our team checks each platform by hand and sends you real, individually reviewed results — we never mark a directory as missing unless we've actually checked it."}}, {"@type": "Question", "name": "Do I have to publish my home address?", "acceptedAnswer": {"@type": "Answer", "text": "No. If you're a service-area business without a public office, tell us that and we'll check listings using your service area instead of a street address."}}, {"@type": "Question", "name": "Which platforms do you check?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on your trade and service area, but it typically includes Google Business Profile, Bing Places, Apple Business Connect, Yelp, Facebook, Yellow Pages, Foursquare, Hotfrog, Canada411 and HomeStars."}}]}</script>
+
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Directory visibility scan</nav>
+    <h1>Your business should be visible in more places than just Google.</h1>
+    <p class="lede">Find out where your business listings are missing, inconsistent or out of date across the directories and local discovery platforms customers actually use.</p>
+    <div class="btn-row"><a class="btn btn--primary" href="#scan-form" data-track-cta="directory_scan">Check my business listings</a></div>
+  </div>
+</section>
+
+<section class="section section--mist" aria-labelledby="why-h">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="why-h">Why directories still matter</h2>
+      <p class="lede">A "citation" is any place your business name, address and phone number appear online. When they match everywhere, it's one more signal to Google that your business is real, established and trustworthy at that location. When they don't match — an old phone number here, a different business name there — it quietly works against you.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="platforms-h">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="platforms-h">Platforms we typically check</h2>
+      <p class="lede">The exact list depends on your trade and service area. This isn't a guarantee every business is listed on every platform below — it's what we review for relevance during your scan.</p>
+    </div>
+    <div class="directory-grid">
+      {%- for platform in directories.platforms %}
+      <div class="directory-chip">{{ platform.name }}</div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--mist" aria-labelledby="categories-h">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="categories-h">What we check on each listing</h2>
+    </div>
+    <div class="rows">
+      <div class="row"><h3>Verified existing listings</h3><p>Confirmed live and found during manual review.</p></div>
+      <div class="row"><h3>Confirmed missing listings</h3><p>Checked and genuinely not found — never guessed.</p></div>
+      <div class="row"><h3>Duplicate listings</h3><p>More than one profile for the same business on the same platform.</p></div>
+      <div class="row"><h3>Inconsistent business name, address or phone number</h3><p>Compared against the information you give us.</p></div>
+      <div class="row"><h3>Outdated website URL</h3><p>Listings still pointing at an old or incorrect website.</p></div>
+      <div class="row"><h3>Incomplete profiles</h3><p>Missing hours, categories, photos or description.</p></div>
+      <div class="row"><h3>Pending verification</h3><p>Found, but needs a claim or verification step to control it.</p></div>
+      <div class="row"><h3>Not assessed</h3><p>Platforms we couldn't reach or confidently check — labelled honestly, not skipped silently.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink" id="scan-form">
+  <div class="wrap lead">
+    <div class="lead-copy">
+      <h2>Check my business listings</h2>
+      <p class="lede">Service-area business with no public office? Just tell us your service area instead of a street address.</p>
+      <ul>
+        <li>Manually reviewed, platform by platform</li>
+        <li>Never labelled "missing" unless actually checked</li>
+        <li>No obligation to buy anything afterward</li>
+      </ul>
+    </div>
+    {%- if site.formspreeId %}
+    <form class="form" data-lead-form="directory_scan" name="directory-scan" method="POST" action="https://formspree.io/f/{{ site.formspreeId }}">
+      <input type="hidden" name="_next" value="{{ site.url }}/directory-scan/thanks/">
+      <input type="hidden" name="_subject" value="New lead: directory scan">
+      <input type="hidden" name="offer" value="directory-scan">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="fine full">Fields marked <span class="req" aria-hidden="true">*</span> are required.</p>
+      <p class="hidden"><label>Leave this empty <input name="_gotcha"></label></p>
+    {%- else %}
+    <form class="form" data-lead-form="directory_scan" name="directory-scan" method="POST" action="/directory-scan/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="directory-scan">
+      <input type="hidden" name="offer" value="directory-scan">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="fine full">Fields marked <span class="req" aria-hidden="true">*</span> are required.</p>
+      <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+    {%- endif %}
+      <div><label for="ds-business">Business name <span class="req" aria-hidden="true">*</span></label><input id="ds-business" name="business" autocomplete="organization" required aria-required="true"></div>
+      <div><label for="ds-area">Service area or address <span class="req" aria-hidden="true">*</span></label><input id="ds-area" name="service_area" placeholder="e.g. Whitby and Durham Region" required aria-required="true"></div>
+      <div><label for="ds-phone">Phone <span class="req" aria-hidden="true">*</span></label><input id="ds-phone" type="tel" name="phone" autocomplete="tel" required aria-required="true"></div>
+      <div><label for="ds-category">Business category <span class="req" aria-hidden="true">*</span></label><input id="ds-category" name="trade" placeholder="e.g. roofing, HVAC, renovations" required aria-required="true"></div>
+      <div class="full"><label for="ds-site">Website URL <span>(optional)</span></label><input id="ds-site" name="website" inputmode="url" placeholder="yourbusiness.ca"></div>
+      <div class="full"><label for="ds-email">Email <span class="req" aria-hidden="true">*</span></label><input id="ds-email" type="email" name="email" autocomplete="email" required aria-required="true"></div>
+      <div class="full"><button class="btn btn--primary" type="submit">Check my business listings</button></div>
+      <p class="fine full">We use your details only to run your scan and follow up about it. See our <a href="/privacy/">privacy policy</a>.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="faq-h">Questions before you request yours</h2></div>
+    <div class="faq">
+      <details><summary>Is this fully automated?</summary><div><p>No, and we won't pretend it is. A person on our team checks each platform by hand and sends you real, individually reviewed results — we never mark a directory as missing unless we've actually checked it.</p></div></details>
+      <details><summary>Do I have to publish my home address?</summary><div><p>No. If you're a service-area business without a public office, tell us that and we'll check listings using your service area instead of a street address.</p></div></details>
+      <details><summary>Which platforms do you check?</summary><div><p>It depends on your trade and service area, but it typically includes Google Business Profile, Bing Places, Apple Business Connect, Yelp, Facebook, Yellow Pages, Foursquare, Hotfrog, Canada411 and HomeStars.</p></div></details>
+    </div>
+    <div class="faq-cta">
+      <p>Want it fixed, not just found?</p>
+      <div class="btn-row"><a class="btn btn--primary" href="/google-business-profile/" data-track-cta="directory_scan_service_cta">Explore directory and listings management</a></div>
+    </div>
+  </div>
+</section>

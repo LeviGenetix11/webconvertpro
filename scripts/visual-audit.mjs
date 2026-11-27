@@ -9,6 +9,8 @@ const pages = [
   "/", "/branding/", "/services/", "/web-design/", "/starter/",
   "/google-business-profile/", "/social-media/", "/about/", "/contact/",
   "/blog/", "/blog/how-to-choose-a-web-designer/", "/privacy/", "/preview/", "/locations/",
+  "/free-website-audit/", "/local-seo-audit/", "/directory-scan/", "/branding-preview/",
+  "/resources/", "/tools/", "/tools/website-opportunity-calculator/", "/resources/contractor-growth-playbook/", "/resources/competitor-analysis/",
 ];
 const widths = [375, 768, 1440];
 const shotWidths = [390, 1440];

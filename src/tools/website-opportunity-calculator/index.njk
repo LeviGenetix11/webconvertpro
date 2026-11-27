@@ -1,0 +1,196 @@
+---
+layout: layouts/base.njk
+title: "Website Opportunity Calculator | WebConvertPro"
+description: "See what improving your website's inquiry conversion rate could mean for your home improvement business. A free, interactive calculator — no email required to see your results."
+permalink: "/tools/website-opportunity-calculator/"
+nav: "/tools/"
+---
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"}, {"@type": "ListItem", "position": 2, "name": "Free tools", "item": "{{ site.url }}/tools/"}, {"@type": "ListItem", "position": 3, "name": "Website opportunity calculator", "item": "{{ site.url }}/tools/website-opportunity-calculator/"}]}</script>
+
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/tools/">Free tools</a> / Website opportunity calculator</nav>
+    <h1>What could a better website be worth to your business?</h1>
+    <p class="lede">Adjust the numbers below to estimate how improving your website's inquiry conversion rate could affect your monthly revenue. No email required to see your results.</p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="calc-h">
+  <div class="wrap">
+    <h2 id="calc-h" class="sr-only">Calculator</h2>
+    <div class="calc">
+      <div class="calc-inputs">
+        <div class="calc-field">
+          <label for="c-visitors">Monthly website visitors</label>
+          <input id="c-visitors" type="number" min="0" step="10" value="500">
+        </div>
+        <div class="calc-field">
+          <label for="c-current-rate">Current inquiry conversion rate <output id="c-current-rate-out">2.0%</output></label>
+          <input id="c-current-rate" type="range" min="0" max="20" step="0.1" value="2">
+        </div>
+        <div class="calc-field">
+          <label for="c-target-rate">Target inquiry conversion rate <output id="c-target-rate-out">5.0%</output></label>
+          <input id="c-target-rate" type="range" min="0" max="20" step="0.1" value="5">
+        </div>
+        <div class="calc-field">
+          <label for="c-close-rate">Sales closing rate <output id="c-close-rate-out">30%</output></label>
+          <input id="c-close-rate" type="range" min="0" max="100" step="1" value="30">
+        </div>
+        <div class="calc-field">
+          <label for="c-job-value">Average customer or job value ($)</label>
+          <input id="c-job-value" type="number" min="0" step="50" value="3500">
+        </div>
+        <div class="calc-field">
+          <label for="c-spend">Monthly website and marketing spend ($) <span>(optional)</span></label>
+          <input id="c-spend" type="number" min="0" step="50" placeholder="e.g. 500">
+        </div>
+      </div>
+
+      <div class="calc-results">
+        <div class="calc-compare">
+          <div class="calc-bar-row">
+            <span>Current monthly revenue</span>
+            <div class="calc-bar"><div class="calc-bar-fill calc-bar-fill--current" id="c-bar-current"></div></div>
+            <strong id="c-rev-current">$0</strong>
+          </div>
+          <div class="calc-bar-row">
+            <span>Target monthly revenue</span>
+            <div class="calc-bar"><div class="calc-bar-fill calc-bar-fill--target" id="c-bar-target"></div></div>
+            <strong id="c-rev-target">$0</strong>
+          </div>
+        </div>
+        <div class="calc-grid">
+          <div><span>Current monthly inquiries</span><strong id="c-inq-current">0</strong></div>
+          <div><span>Target monthly inquiries</span><strong id="c-inq-target">0</strong></div>
+          <div><span>Current monthly customers</span><strong id="c-cust-current">0</strong></div>
+          <div><span>Target monthly customers</span><strong id="c-cust-target">0</strong></div>
+        </div>
+        <div class="calc-highlight">
+          <div><span>Potential monthly revenue difference</span><strong id="c-diff-monthly">$0</strong></div>
+          <div><span>Potential annual revenue difference</span><strong id="c-diff-annual">$0</strong></div>
+        </div>
+        <p class="calc-roi" id="c-roi" hidden></p>
+        <p class="fine">These are hypothetical scenarios based on the numbers you entered, not a forecast or a guarantee of actual results. Your real conversion rate depends on your market, competition, pricing and how well your website is built.</p>
+      </div>
+    </div>
+    <div class="btn-row" style="margin-top:28px"><a class="btn btn--primary" href="/preview/" data-track-cta="calculator">Get my free website preview</a></div>
+  </div>
+</section>
+
+<section class="section section--mist" aria-labelledby="explain-h">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="explain-h">How this is calculated</h2>
+    </div>
+    <div class="rows">
+      <div class="row"><h3>Inquiries</h3><p>Monthly visitors × inquiry conversion rate.</p></div>
+      <div class="row"><h3>Customers</h3><p>Monthly inquiries × your sales closing rate.</p></div>
+      <div class="row"><h3>Revenue</h3><p>Monthly customers × your average job value.</p></div>
+      <div class="row"><h3>If you enter a monthly spend</h3><p>We show target revenue divided by that spend. This is a revenue-to-spend ratio, not profit — it doesn't subtract your costs, labour or materials.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="email-h">
+  <div class="wrap lead">
+    <div class="lead-copy">
+      <h2 id="email-h">Want these numbers emailed to you?</h2>
+      <p class="lede">Optional — you've already seen your full results above.</p>
+    </div>
+    {%- if site.formspreeId %}
+    <form class="form" data-lead-form="calculator" name="calculator-summary" method="POST" action="https://formspree.io/f/{{ site.formspreeId }}">
+      <input type="hidden" name="_next" value="{{ site.url }}/thank-you/resources/">
+      <input type="hidden" name="_subject" value="New lead: calculator summary request">
+      <input type="hidden" name="offer" value="calculator">
+      <input type="hidden" name="scenario" id="c-scenario-field">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="hidden"><label>Leave this empty <input name="_gotcha"></label></p>
+    {%- else %}
+    <form class="form" data-lead-form="calculator" name="calculator-summary" method="POST" action="/thank-you/resources/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="calculator-summary">
+      <input type="hidden" name="offer" value="calculator">
+      <input type="hidden" name="scenario" id="c-scenario-field-2">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+    {%- endif %}
+      <div class="full"><label for="c-email">Email</label><input id="c-email" type="email" name="email" autocomplete="email" required aria-required="true"></div>
+      <div class="full"><button class="btn btn--primary" type="submit">Email me my results</button></div>
+    </form>
+  </div>
+</section>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var fmtMoney = function (n) { return "$" + Math.round(n).toLocaleString("en-CA"); };
+  var fmtNum = function (n) { return Math.round(n).toLocaleString("en-CA"); };
+
+  var visitors = $("c-visitors"), curRate = $("c-current-rate"), tgtRate = $("c-target-rate"),
+      closeRate = $("c-close-rate"), jobValue = $("c-job-value"), spend = $("c-spend");
+
+  function calc() {
+    var v = Math.max(0, Number(visitors.value) || 0);
+    var cr = Math.max(0, Number(curRate.value) || 0) / 100;
+    var tr = Math.max(0, Number(tgtRate.value) || 0) / 100;
+    var close = Math.max(0, Number(closeRate.value) || 0) / 100;
+    var job = Math.max(0, Number(jobValue.value) || 0);
+    var spendVal = Number(spend.value) || 0;
+
+    $("c-current-rate-out").textContent = cr.toLocaleString("en-CA", { style: "percent", minimumFractionDigits: 1 });
+    $("c-target-rate-out").textContent = tr.toLocaleString("en-CA", { style: "percent", minimumFractionDigits: 1 });
+    $("c-close-rate-out").textContent = Math.round(close * 100) + "%";
+
+    var inqCurrent = v * cr;
+    var inqTarget = v * tr;
+    var custCurrent = inqCurrent * close;
+    var custTarget = inqTarget * close;
+    var revCurrent = custCurrent * job;
+    var revTarget = custTarget * job;
+    var diffMonthly = revTarget - revCurrent;
+    var diffAnnual = diffMonthly * 12;
+
+    $("c-inq-current").textContent = fmtNum(inqCurrent);
+    $("c-inq-target").textContent = fmtNum(inqTarget);
+    $("c-cust-current").textContent = fmtNum(custCurrent);
+    $("c-cust-target").textContent = fmtNum(custTarget);
+    $("c-rev-current").textContent = fmtMoney(revCurrent);
+    $("c-rev-target").textContent = fmtMoney(revTarget);
+    $("c-diff-monthly").textContent = fmtMoney(diffMonthly);
+    $("c-diff-annual").textContent = fmtMoney(diffAnnual);
+
+    var maxRev = Math.max(revCurrent, revTarget, 1);
+    $("c-bar-current").style.width = (revCurrent / maxRev * 100) + "%";
+    $("c-bar-target").style.width = (revTarget / maxRev * 100) + "%";
+
+    var roiEl = $("c-roi");
+    if (spendVal > 0) {
+      var ratio = revTarget / spendVal;
+      roiEl.hidden = false;
+      roiEl.textContent = "At your target conversion rate, that's roughly " + ratio.toFixed(1) + "× your monthly spend in revenue (not profit — your costs aren't included).";
+    } else {
+      roiEl.hidden = true;
+    }
+
+    var scenario = "Visitors: " + v + ", current rate: " + (cr * 100).toFixed(1) + "%, target rate: " + (tr * 100).toFixed(1) +
+      "%, close rate: " + Math.round(close * 100) + "%, job value: $" + job + ", monthly diff: " + fmtMoney(diffMonthly) + ", annual diff: " + fmtMoney(diffAnnual);
+    var f1 = $("c-scenario-field"); if (f1) f1.value = scenario;
+    var f2 = $("c-scenario-field-2"); if (f2) f2.value = scenario;
+  }
+
+  [visitors, curRate, tgtRate, closeRate, jobValue, spend].forEach(function (el) {
+    el.addEventListener("input", calc);
+  });
+  calc();
+
+  var started = false;
+  document.querySelectorAll(".calc input").forEach(function (el) {
+    el.addEventListener("input", function () {
+      if (!started && typeof gtag === "function") { started = true; gtag("event", "calculator_start"); }
+    });
+  });
+  window.addEventListener("load", function () {
+    if (typeof gtag === "function") gtag("event", "calculator_view");
+  });
+})();
+</script>

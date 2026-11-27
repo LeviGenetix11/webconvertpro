@@ -4,7 +4,12 @@
   "redirects": [
     { "source": "/website-design", "destination": "/web-design/", "permanent": true },
     { "source": "/website-in-a-day/", "destination": "/starter/", "permanent": true },
-    { "source": "/website-in-a-day", "destination": "/starter/", "permanent": true }
+    { "source": "/website-in-a-day", "destination": "/starter/", "permanent": true },
+    { "source": "/thank-you/website-preview", "destination": "/preview/thanks/", "permanent": false },
+    { "source": "/thank-you/website-audit", "destination": "/free-website-audit/thanks/", "permanent": false },
+    { "source": "/thank-you/local-seo", "destination": "/local-seo-audit/thanks/", "permanent": false },
+    { "source": "/thank-you/directory-scan", "destination": "/directory-scan/thanks/", "permanent": false },
+    { "source": "/thank-you/branding", "destination": "/branding-preview/thanks/", "permanent": false }
   ],
   "headers": [
     {

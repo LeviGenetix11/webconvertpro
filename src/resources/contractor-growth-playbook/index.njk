@@ -1,0 +1,81 @@
+---
+layout: layouts/base.njk
+title: "Free Guide: The Contractor's Digital Growth Playbook | WebConvertPro"
+description: "A free, practical guide to building a stronger online presence and winning more home improvement customers — website, local SEO, branding, social and a 30-day action plan."
+permalink: "/resources/contractor-growth-playbook/"
+minimalHeader: true
+mobileCtaHref: "#playbook-form"
+mobileCtaLabel: "Get the free guide"
+---
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"}, {"@type": "ListItem", "position": 2, "name": "Free tools and resources", "item": "{{ site.url }}/resources/"}, {"@type": "ListItem", "position": 3, "name": "The Contractor's Digital Growth Playbook", "item": "{{ site.url }}/resources/contractor-growth-playbook/"}]}</script>
+
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/resources/">Free tools and resources</a> / Digital Growth Playbook</nav>
+    <h1>The Contractor's Digital Growth Playbook</h1>
+    <p class="lede">A practical guide to building a stronger online presence and winning more home improvement customers: website, local SEO, branding, social content, a 30-day action plan and a checklist. No guaranteed rankings or revenue — just what's actually in your control.</p>
+    <div class="btn-row"><a class="btn btn--primary" href="#playbook-form" data-track-cta="growth_playbook">Get the free guide</a></div>
+  </div>
+</section>
+
+<section class="section section--mist" aria-labelledby="whats-inside-h">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="whats-inside-h">What's inside</h2>
+      <p class="lede">26 short, practical sections across five parts — skim it in 20 minutes, or work through it over a month.</p>
+    </div>
+    <div class="rows">
+      <div class="row"><h3>Part 1 &middot; Foundations</h3><p>How homeowners actually research and choose a contractor today, the modern customer journey, and the eleven most common digital marketing mistakes.</p></div>
+      <div class="row"><h3>Part 2 &middot; Your website</h3><p>Essential elements, mobile responsiveness, speed, conversion, calls to action, credibility and photography — what actually turns a visitor into an enquiry.</p></div>
+      <div class="row"><h3>Part 3 &middot; Local visibility</h3><p>Local SEO fundamentals, Google Business Profile, reviews, directories and keeping your business information consistent everywhere.</p></div>
+      <div class="row"><h3>Part 4 &middot; Brand and content</h3><p>Branding, organic social media and content marketing — built for someone with a business to run, not a marketing degree.</p></div>
+      <div class="row"><h3>Part 5 &middot; Putting it to work</h3><p>Measuring what's working, budget priorities, a 30-day action plan and a one-page checklist to work from.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink" id="playbook-form">
+  <div class="wrap lead">
+    <div class="lead-copy">
+      <h2>Get the free guide</h2>
+      <p class="lede">Enter your email and we'll send the download link right away.</p>
+      <ul>
+        <li>Instant download, no payment details</li>
+        <li>Written specifically for home improvement trades</li>
+        <li>No guaranteed rankings, enquiries or revenue — just what you control</li>
+      </ul>
+    </div>
+    {%- if site.formspreeId %}
+    <form class="form" data-lead-form="growth_playbook" name="growth-playbook" method="POST" action="https://formspree.io/f/{{ site.formspreeId }}">
+      <input type="hidden" name="_next" value="{{ site.url }}/resources/contractor-growth-playbook/thanks/">
+      <input type="hidden" name="_subject" value="New lead: growth playbook download">
+      <input type="hidden" name="offer" value="growth-playbook">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="hidden"><label>Leave this empty <input name="_gotcha"></label></p>
+    {%- else %}
+    <form class="form" data-lead-form="growth_playbook" name="growth-playbook" method="POST" action="/resources/contractor-growth-playbook/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="growth-playbook">
+      <input type="hidden" name="offer" value="growth-playbook">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+    {%- endif %}
+      <div class="full"><label for="gp-email">Email <span class="req" aria-hidden="true">*</span></label><input id="gp-email" type="email" name="email" autocomplete="email" required aria-required="true"></div>
+      <div class="full"><label for="gp-business">Business name <span>(optional)</span></label><input id="gp-business" name="business" autocomplete="organization"></div>
+      <div class="full"><label class="consent-row"><input type="checkbox" name="marketing_consent" value="yes"> Also send me occasional practical tips for home improvement businesses. Unsubscribe any time.</label></div>
+      <div class="full"><button class="btn btn--primary" type="submit">Get the free guide</button></div>
+      <p class="fine full">We use your email to send the guide and, only if you check the box above, occasional follow-up tips. See our <a href="/privacy/">privacy policy</a>.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="faq-h">Questions before you download</h2></div>
+    <div class="faq">
+      <details><summary>Will this guarantee more leads or a higher ranking?</summary><div><p>No. Nothing honestly can — search engines and customers decide those. This guide focuses on what's actually in your control: how clear, accurate and trustworthy your business looks online.</p></div></details>
+      <details><summary>Is the follow-up email list optional?</summary><div><p>Yes. Checking the box is separate from getting the guide — leave it unchecked and you'll still get the download, nothing else.</p></div></details>
+      <details><summary>Do I have to hire WebConvertPro to use this?</summary><div><p>No. Every recommendation in the guide is something you can do yourself. If you'd rather have it built and maintained for you, see our <a href="/preview/">free website preview</a>.</p></div></details>
+    </div>
+  </div>
+</section>

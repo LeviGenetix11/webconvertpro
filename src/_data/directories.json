@@ -1,0 +1,14 @@
+{
+  "platforms": [
+    { "name": "Google Business Profile", "category": "Primary" },
+    { "name": "Bing Places", "category": "Primary" },
+    { "name": "Apple Business Connect", "category": "Primary" },
+    { "name": "Yelp", "category": "General" },
+    { "name": "Facebook", "category": "Social" },
+    { "name": "Yellow Pages", "category": "General" },
+    { "name": "Foursquare", "category": "General" },
+    { "name": "Hotfrog", "category": "General" },
+    { "name": "Canada411", "category": "Canadian" },
+    { "name": "HomeStars", "category": "Industry" }
+  ]
+}

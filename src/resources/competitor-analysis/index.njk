@@ -1,0 +1,100 @@
+---
+layout: layouts/base.njk
+title: "Free Local Competitor Analysis for Contractors | WebConvertPro"
+description: "See how your website, branding and online presence compare to up to three local competitors you choose — a manually reviewed comparison, not fabricated data."
+permalink: "/resources/competitor-analysis/"
+minimalHeader: true
+mobileCtaHref: "#competitor-form"
+mobileCtaLabel: "Request my comparison"
+---
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Local competitor analysis", "serviceType": "Competitor analysis", "description": "A manually reviewed comparison of your website, branding and online presence against up to three local competitors.", "url": "{{ site.url }}/resources/competitor-analysis/", "provider": {"@id": "{{ site.url }}/#business"}, "offers": {"@type": "Offer", "priceCurrency": "CAD", "price": "0"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"}, {"@type": "ListItem", "position": 2, "name": "Free tools and resources", "item": "{{ site.url }}/resources/"}, {"@type": "ListItem", "position": 3, "name": "Competitor analysis", "item": "{{ site.url }}/resources/competitor-analysis/"}]}</script>
+
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/resources/">Free tools and resources</a> / Competitor analysis</nav>
+    <h1>See how you stack up against the competitors homeowners compare you to.</h1>
+    <p class="lede">Tell us up to three competitors — or ask us to find them — and we'll manually compare websites, branding and visible online presence. No fabricated traffic, revenue or ranking numbers; only what's actually publicly visible.</p>
+    <div class="btn-row"><a class="btn btn--primary" href="#competitor-form" data-track-cta="competitor_analysis">Request my free comparison</a></div>
+  </div>
+</section>
+
+<section class="section section--mist" aria-labelledby="covers-h">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="covers-h">What the comparison covers</h2>
+      <p class="lede">Everything here comes from something publicly visible right now — never an estimate of a competitor's traffic, revenue or rankings, since nobody outside their own analytics can see those honestly.</p>
+    </div>
+    <div class="rows">
+      <div class="row"><h3>Website quality</h3><p>Design, clarity of services and how current each site looks.</p></div>
+      <div class="row"><h3>Mobile experience</h3><p>How each site actually behaves on a phone.</p></div>
+      <div class="row"><h3>Business positioning</h3><p>What each business leads with: price, speed, trust or specialty.</p></div>
+      <div class="row"><h3>Visible calls to action</h3><p>What each site asks a visitor to do, and how often.</p></div>
+      <div class="row"><h3>Public review information</h3><p>Review count and rating as currently shown on Google — a snapshot, not a tracked trend.</p></div>
+      <div class="row"><h3>Local business information</h3><p>Service area and category as each business publicly states it.</p></div>
+      <div class="row"><h3>Directory presence</h3><p>Only where we actually checked — never guessed.</p></div>
+      <div class="row"><h3>Branding quality</h3><p>Logo, colour consistency and overall visual polish, compared side by side.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="form-head-h">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="form-head-h">Know your competitors, or want us to find them?</h2>
+      <p class="lede">Either works. Tell us up to three business names if you already know who you're compared to most often, or leave it blank and ask us to identify them from a plain local search.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink" id="competitor-form">
+  <div class="wrap lead">
+    <div class="lead-copy">
+      <h2>Request my free comparison</h2>
+      <p class="lede">Manually reviewed, delivered by email.</p>
+      <ul>
+        <li>Only publicly visible information, never fabricated numbers</li>
+        <li>You name competitors, or we identify them for you</li>
+        <li>No payment details, no obligation</li>
+      </ul>
+    </div>
+    {%- if site.formspreeId %}
+    <form class="form" data-lead-form="competitor_analysis" name="competitor-analysis" method="POST" action="https://formspree.io/f/{{ site.formspreeId }}">
+      <input type="hidden" name="_next" value="{{ site.url }}/thank-you/resources/">
+      <input type="hidden" name="_subject" value="New lead: competitor analysis">
+      <input type="hidden" name="offer" value="competitor-analysis">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="fine full">Fields marked <span class="req" aria-hidden="true">*</span> are required.</p>
+      <p class="hidden"><label>Leave this empty <input name="_gotcha"></label></p>
+    {%- else %}
+    <form class="form" data-lead-form="competitor_analysis" name="competitor-analysis" method="POST" action="/thank-you/resources/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="competitor-analysis">
+      <input type="hidden" name="offer" value="competitor-analysis">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="fine full">Fields marked <span class="req" aria-hidden="true">*</span> are required.</p>
+      <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+    {%- endif %}
+      <div><label for="ca-business">Your business name <span class="req" aria-hidden="true">*</span></label><input id="ca-business" name="business" autocomplete="organization" required aria-required="true"></div>
+      <div><label for="ca-trade">Industry <span class="req" aria-hidden="true">*</span></label><input id="ca-trade" name="trade" placeholder="e.g. roofing, HVAC, renovations" required aria-required="true"></div>
+      <div><label for="ca-city">City or service area <span class="req" aria-hidden="true">*</span></label><input id="ca-city" name="city" placeholder="e.g. Whitby" required aria-required="true"></div>
+      <div><label for="ca-site">Your website URL <span>(optional)</span></label><input id="ca-site" name="website" inputmode="url" placeholder="yourbusiness.ca"></div>
+      <div class="full"><label for="ca-competitors">Up to three competitors <span>(optional — leave blank and we'll identify them)</span></label><textarea id="ca-competitors" name="competitors" placeholder="Competitor names or website URLs, one per line"></textarea></div>
+      <div><label for="ca-email">Email <span class="req" aria-hidden="true">*</span></label><input id="ca-email" type="email" name="email" autocomplete="email" required aria-required="true"></div>
+      <div><label for="ca-phone">Phone <span>(optional)</span></label><input id="ca-phone" type="tel" name="phone" autocomplete="tel"></div>
+      <div class="full"><button class="btn btn--primary" type="submit">Request my free comparison</button></div>
+      <p class="fine full">We use your details only to build your comparison and follow up about it. See our <a href="/privacy/">privacy policy</a>.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="faq-h">Questions before you request yours</h2></div>
+    <div class="faq">
+      <details><summary>Will you show me their traffic, revenue or rankings?</summary><div><p>No. Those aren't honestly observable from outside a business's own analytics, so we don't estimate or guess at them. We compare what's actually publicly visible: websites, branding, visible reviews and listed services.</p></div></details>
+      <details><summary>What if I don't know who my real competitors are?</summary><div><p>Leave the competitor field blank and tell us that — we'll identify a few from a plain local search for your trade and city.</p></div></details>
+      <details><summary>What do I get?</summary><div><p>A written, side-by-side comparison with recommended improvements, delivered by email.</p></div></details>
+    </div>
+  </div>
+</section>

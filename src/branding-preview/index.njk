@@ -1,0 +1,124 @@
+---
+layout: layouts/base.njk
+title: "Free Branding Preview for Contractors | WebConvertPro"
+description: "See how a stronger logo, colour palette and visual identity could help your home improvement business look as professional as your work. For GTA businesses."
+permalink: "/branding-preview/"
+minimalHeader: true
+mobileCtaHref: "#brand-form"
+mobileCtaLabel: "Request my preview"
+---
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Free branding preview", "serviceType": "Branding preview", "description": "See how a stronger logo, colour palette and visual identity could help your home improvement business look as professional as your work.", "url": "{{ site.url }}/branding-preview/", "provider": {"@id": "{{ site.url }}/#business"}, "offers": {"@type": "Offer", "priceCurrency": "CAD", "price": "0"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"}, {"@type": "ListItem", "position": 2, "name": "Branding preview", "item": "{{ site.url }}/branding-preview/"}]}</script>
+
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Branding preview</nav>
+    <h1>Make your business look as professional as the work you do.</h1>
+    <p class="lede">See how a stronger visual identity could help your home improvement business communicate quality, credibility and professionalism — before you commit to anything.</p>
+    <div class="btn-row"><a class="btn btn--primary" href="#brand-form" data-track-cta="branding_preview">Request my brand preview</a></div>
+  </div>
+</section>
+
+<section class="section section--mist" aria-labelledby="concepts-h">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Website design concept</span>
+      <h2 id="concepts-h">Example visual identities, by trade</h2>
+      <p class="lede">Illustrative concepts, not real client brands — to show the kind of range a consistent identity can cover. See the full set on our <a href="/branding/">branding page</a>.</p>
+    </div>
+    <div class="concept-grid">
+      {%- for c in brandingConcepts %}
+      <article class="concept-card">
+        <div class="concept-head" style="background: linear-gradient(135deg, {{ c.colors[0] }}, {{ c.colors[1] }});">
+          <span class="concept-mark">{{ c.initial }}</span>
+        </div>
+        <div class="concept-body">
+          <div class="concept-swatches"><span style="background:{{ c.colors[0] }}"></span><span style="background:{{ c.colors[1] }}"></span></div>
+          <h3>{{ c.name }}</h3>
+          <p class="concept-industry">{{ c.industry }}</p>
+          <p>{{ c.description }}</p>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="includes-h">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="includes-h">What a complete brand identity includes</h2>
+    </div>
+    <div class="rows">
+      <div class="row"><h3>Logo design</h3><p>A mark that works as small as a favicon and as large as a vehicle door.</p></div>
+      <div class="row"><h3>Colour palette</h3><p>A small, deliberate set of colours used consistently everywhere, not whatever's closest in the moment.</p></div>
+      <div class="row"><h3>Business cards</h3><p>Designed to match your website and vehicle, not printed as an afterthought.</p></div>
+      <div class="row"><h3>Vehicle branding direction</h3><p>How your mark and colours translate to a truck or van wrap.</p></div>
+      <div class="row"><h3>Uniform branding</h3><p>Logo placement and colours for shirts, hats and hi-vis gear.</p></div>
+      <div class="row"><h3>Social media templates</h3><p>Consistent post layouts so every photo of finished work looks like it's from the same professional business.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--mist" aria-labelledby="benefits-h">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="benefits-h">Why it's worth fixing</h2>
+      <p class="lede">A homeowner deciding between quotes often can't judge the quality of your work in advance — your visual presentation is one of the few things they can judge instantly. A mismatched logo, inconsistent colours or a hand-made business card quietly raises doubt before you've said a word.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink" id="brand-form">
+  <div class="wrap lead">
+    <div class="lead-copy">
+      <h2>Request my brand preview</h2>
+      <p class="lede">Tell us about your business and current branding, if you have any.</p>
+      <ul>
+        <li>Concepts are clearly labelled illustrative, not a finished deliverable</li>
+        <li>No payment details, no obligation</li>
+        <li>Upload your current logo if you'd like it factored in</li>
+      </ul>
+    </div>
+    {%- if site.formspreeId %}
+    <form class="form" data-lead-form="branding_preview" name="branding-preview" method="POST" action="https://formspree.io/f/{{ site.formspreeId }}" enctype="multipart/form-data">
+      <input type="hidden" name="_next" value="{{ site.url }}/branding-preview/thanks/">
+      <input type="hidden" name="_subject" value="New lead: branding preview">
+      <input type="hidden" name="offer" value="branding-preview">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="fine full">Fields marked <span class="req" aria-hidden="true">*</span> are required.</p>
+      <p class="hidden"><label>Leave this empty <input name="_gotcha"></label></p>
+    {%- else %}
+    <form class="form" data-lead-form="branding_preview" name="branding-preview" method="POST" action="/branding-preview/thanks/" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data">
+      <input type="hidden" name="form-name" value="branding-preview">
+      <input type="hidden" name="offer" value="branding-preview">
+      {%- include "partials/lead-attribution-fields.njk" %}
+      <p class="fine full">Fields marked <span class="req" aria-hidden="true">*</span> are required.</p>
+      <p class="hidden"><label>Leave this empty <input name="bot-field"></label></p>
+    {%- endif %}
+      <div><label for="bp-business">Business name <span class="req" aria-hidden="true">*</span></label><input id="bp-business" name="business" autocomplete="organization" required aria-required="true"></div>
+      <div><label for="bp-trade">Industry <span class="req" aria-hidden="true">*</span></label><input id="bp-trade" name="trade" placeholder="e.g. roofing, HVAC, renovations" required aria-required="true"></div>
+      <div><label for="bp-site">Existing website <span>(optional)</span></label><input id="bp-site" name="website" inputmode="url" placeholder="yourbusiness.ca"></div>
+      <div><label for="bp-style">Preferred visual style <span>(optional)</span></label><input id="bp-style" name="style" placeholder="e.g. bold, modern, traditional"></div>
+      <div><label for="bp-colours">Preferred colours <span>(optional)</span></label><input id="bp-colours" name="colours" placeholder="e.g. navy and orange"></div>
+      <div><label for="bp-objective">Main branding goal <span>(optional)</span></label><input id="bp-objective" name="objective" placeholder="e.g. look more established"></div>
+      <div class="full"><label for="bp-logo">Upload your existing logo <span>(optional, under 5MB)</span></label><input id="bp-logo" type="file" name="logo" accept="image/png,image/jpeg,image/svg+xml,.pdf,.ai,.eps"></div>
+      <div><label for="bp-email">Email <span class="req" aria-hidden="true">*</span></label><input id="bp-email" type="email" name="email" autocomplete="email" required aria-required="true"></div>
+      <div><label for="bp-phone">Phone <span>(optional)</span></label><input id="bp-phone" type="tel" name="phone" autocomplete="tel"></div>
+      <div class="full"><button class="btn btn--primary" type="submit">Request my brand preview</button></div>
+      <p class="fine full">We use your details only to build your preview and contact you about it. See our <a href="/privacy/">privacy policy</a>.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="faq-h">Questions before you request yours</h2></div>
+    <div class="faq">
+      <details><summary>Is the preview a finished logo I can start using?</summary><div><p>No. It's a direction — concepts clearly marked as illustrative, meant to show a direction worth exploring further, not a final deliverable ready to print.</p></div></details>
+      <details><summary>Do I need an existing logo to request this?</summary><div><p>No. It helps us understand your starting point, but plenty of businesses start from nothing.</p></div></details>
+      <details><summary>What if the file upload doesn't work?</summary><div><p>Submit the form without it and reply to our confirmation email with your logo attached instead.</p></div></details>
+    </div>
+  </div>
+</section>

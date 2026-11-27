@@ -5,5 +5,17 @@
   "[markdown]": { "editor.wordWrap": "on", "editor.quickSuggestions": { "other": "off" } },
   "files.exclude": { "node_modules": true, "_site": true },
   "search.exclude": { "node_modules": true, "_site": true },
-  "cSpell.words": ["WebConvertPro", "Durham", "Pickering", "Whitby", "Oshawa", "Eleventy", "Netlify", "Outscraper", "UTM", "HVAC"]
+  "cSpell.words": [
+    "WebConvertPro",
+    "Durham",
+    "Pickering",
+    "Whitby",
+    "Oshawa",
+    "Eleventy",
+    "Netlify",
+    "Outscraper",
+    "UTM",
+    "HVAC"
+  ],
+  "python.terminal.useEnvFile": true
 }
