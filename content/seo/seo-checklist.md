@@ -29,7 +29,7 @@
 - [ ] Update one older post with new information
 - [ ] Publish 2 to 4 new posts
 - [ ] Ask every client for a Google review
-- [ ] Check form submissions in Netlify (Site → Forms)
+- [ ] Check form submissions in Formspree
 - [ ] Check page speed on PageSpeed Insights for the home page (target 90+ mobile)
 
 ## Technical (already handled by this project)

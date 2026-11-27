@@ -5,7 +5,7 @@ Marketing site for WebConvertPro: web design, local SEO and social content for G
 ## Tech stack
 - **Framework:** Eleventy (`@11ty/eleventy`), templates in Nunjucks (`.njk`), posts in Markdown.
 - **Rendering:** Static Site Generation. Every page is pre-rendered to plain HTML at build time — there is no server or client-side rendering step. This is a hard requirement, not a preference: Google (and AI crawlers) need the finished HTML immediately. Never introduce content that only appears after client-side JS runs, a runtime API route, or anything that needs a server at request time.
-- **Hosting:** Netlify, auto-deploys on push (`netlify.toml`). Forms use Netlify Forms (`data-netlify="true"` in `lead-form.njk`) — don't swap this for a different form backend without updating that.
+- **Hosting:** Vercel, auto-deploys on push (`vercel.json`; migrated from Netlify in 2026-11 after Netlify's usage credits ran out — `netlify.toml` is kept in place as a rollback reference, not actively used). Forms use Formspree (`site.formspreeId` in `src/_data/site.json`, consumed by `lead-form.njk` and `preview/index.njk`) — don't swap this for a different form backend without updating both templates and `docs/deploy-vercel.md`.
 - **Styling:** one hand-written stylesheet, `src/assets/css/styles.css`. No framework, no utility classes, no build step for CSS. Reuse existing classes before inventing new ones — see `references/style.md`.
 - **Content model:** page content lives directly in `.njk` files under `src/` (front matter + markup); blog posts are Markdown files under `src/blog/posts/`. No database, no CMS.
 
@@ -67,7 +67,8 @@ webconvertpro/
 ├── .claude/skills/               /blog and /service generators
 ├── docs/                         Deploy and how-to guides
 ├── eleventy.config.js
-├── netlify.toml
+├── vercel.json
+├── netlify.toml                 Unused rollback reference (see Hosting note above)
 └── package.json
 ```
 

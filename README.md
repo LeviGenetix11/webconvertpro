@@ -1,6 +1,6 @@
 # WebConvertPro website
 
-Marketing site for WebConvertPro: web design for GTA service businesses. Built with [Eleventy](https://www.11ty.dev/) (a static site generator) and hosted on Netlify.
+Marketing site for WebConvertPro: web design for GTA service businesses. Built with [Eleventy](https://www.11ty.dev/) (a static site generator) and hosted on Vercel.
 
 ## Run it on your computer
 
@@ -40,7 +40,8 @@ webconvertpro/
 │   ├── seo/  blog-drafts/  social/  ads/  outreach/  brand/  templates/
 ├── docs/                     Deploy and how-to guides
 ├── eleventy.config.js        Build settings
-├── netlify.toml              Netlify settings, redirects, security headers
+├── vercel.json               Vercel settings, redirects, security headers, cache rules
+├── netlify.toml              Unused rollback reference (site was on Netlify before Vercel)
 └── package.json
 ```
 
@@ -58,11 +59,11 @@ webconvertpro/
 
 **Add a new page:** copy any folder in `src/` (for example `web-design/`), rename it, and edit the front matter (`title`, `description`, `permalink`). Add it to the nav in `site.json` if you want a menu link. It's added to the sitemap automatically.
 
-**Rename or delete a page:** add a redirect in `netlify.toml` so the old URL doesn't break.
+**Rename or delete a page:** add a redirect in `vercel.json` so the old URL doesn't break.
 
 ## Deploy
 
-See `docs/deploy-netlify.md`. In short: push this folder to GitHub, connect the repo to Netlify, and every push deploys automatically.
+See `docs/deploy-vercel.md`. In short: push this folder to GitHub, connect the repo to Vercel, and every push deploys automatically. (`docs/deploy-netlify.md` is kept as a rollback reference from before the Vercel migration.)
 
 ## SEO
 

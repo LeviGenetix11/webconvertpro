@@ -17,7 +17,7 @@ Everything here is **working material**. Nothing in this folder is published. Th
 1. **Pick a keyword** from `seo/keyword-map.md` and the next topic in `seo/content-calendar.md`.
 2. **Write the post** from `templates/blog-post.md` into `blog-drafts/`.
 3. **Run the checklist** in `seo/seo-checklist.md`.
-4. **Publish:** move the file to `src/blog/posts/`, commit, and Netlify deploys it.
+4. **Publish:** move the file to `src/blog/posts/`, commit, and Vercel deploys it.
 5. **Repurpose it** into 3 to 5 social posts and one ad (see `social/content-pillars.md`).
 6. **Tag every link** you post with UTM parameters (see `ads/utm-guide.md`).
-7. **Review monthly:** Search Console for rankings, Netlify for form submissions, Analytics for sources.
+7. **Review monthly:** Search Console for rankings, Formspree for form submissions, Analytics for sources.
