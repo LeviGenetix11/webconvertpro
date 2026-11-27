@@ -276,8 +276,8 @@ body.ba-lock { overflow: hidden; }
 .addons { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
 .addon { background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(28px, 4vw, 44px); display: flex; flex-direction: column; transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
 .addon:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); border-color: transparent; }
-.addon svg { width: 40px; height: 40px; margin-bottom: 22px; color: #fff; background: var(--gradient-brand); border-radius: 12px; padding: 9px; box-sizing: content-box; }
-.addon h3 { font-size: 1.6rem; margin-bottom: 12px; }
+.addon svg { width: 24px; height: 24px; margin-bottom: 22px; color: #fff; background: var(--gradient-brand); border-radius: 12px; padding: 10px; box-sizing: content-box; }
+.addon h3 { font-size: 1.3rem; margin-bottom: 12px; }
 .addon p { color: var(--ink-soft); }
 .addon ul { margin: 0 0 24px; padding: 0; list-style: none; }
 .addon li { padding: 8px 0 8px 28px; position: relative; border-top: 1px solid var(--mist); }
@@ -371,6 +371,8 @@ body.ba-lock { overflow: hidden; }
 .compare > div { padding: clamp(24px, 3vw, 36px); }
 .compare > div + div { background: var(--mint); }
 .compare h3 { margin-bottom: 14px; }
+.compare img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-sm); margin-bottom: 16px; display: block; }
+.compare .img-caption { display: block; font-size: .78rem; color: var(--ink-soft); margin: -10px 0 16px; }
 .compare ul { margin: 0; padding-left: 1.1em; }
 .compare li { margin-bottom: 8px; }
 .compare > div:first-child li { color: var(--ink-soft); }
